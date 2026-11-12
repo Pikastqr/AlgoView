@@ -63,6 +63,7 @@ REQUEST_SLEEP_SECONDS = 4.0
 HEADERS = {
     "User-Agent": "AlgoView-AtCoder-Analyzer/1.0 (+https://github.com/)",
     "Accept-Encoding": "gzip, deflate",
+    "Origin": "https://kenkoooo.com",
 }
 
 
@@ -582,16 +583,17 @@ def main() -> None:
         save_json(ANALYZED_PROBLEMS_PATH, analyzed_cache)
         print(f"[INFO] Updated {ANALYZED_PROBLEMS_PATH} with {len(newly_analyzed)} new problems.")
 
-    # 4. おすすめ15問プールの確定
+    # 4. おすすめ問題プール（最大300問：典型90・ABC・ARC・AGC）の構築
+    # Gemini解析済みの問題を優先しつつ、未解析の候補もヒューリスティックタグ付きでプールに格納し枯渇を防ぐ
     final_pool: List[Dict[str, Any]] = []
-    pool_candidates = cached_unac_candidates + new_rec_targets
+    pool_candidates = cached_unac_candidates + new_rec_targets + uncached_unac_candidates
     seen_pids = set()
     for cand in pool_candidates:
         pid = cand["problem_id"]
-        if pid in seen_pids or pid in ac_problems_map or pid not in analyzed_cache:
+        if pid in seen_pids or pid in ac_problems_map:
             continue
         seen_pids.add(pid)
-        analyzed_info = analyzed_cache[pid]
+        analyzed_info = analyzed_cache.get(pid) or heuristic_analyze_problem(cand)
         final_pool.append(
             {
                 "problem_id": pid,
@@ -604,18 +606,8 @@ def main() -> None:
                 "one_line_summary": analyzed_info["one_line_summary"],
             }
         )
-        if len(final_pool) >= 30:
+        if len(final_pool) >= 300:
             break
-
-    # 既存の recommendations_pool があれば未AC分を補完してプールを維持
-    if len(final_pool) < 30 and "recommendations_pool" in existing_summary:
-        for old_rec in existing_summary["recommendations_pool"]:
-            pid = old_rec.get("problem_id")
-            if pid and pid not in seen_pids and pid not in ac_problems_map:
-                seen_pids.add(pid)
-                final_pool.append(old_rec)
-                if len(final_pool) >= 30:
-                    break
 
     # 5. AC済み問題リスト（解析済みタグ情報付き）とパラメータ累積経験値の集計
     ac_list_output = []
@@ -647,6 +639,9 @@ def main() -> None:
     weekly_stats = compute_weekly_and_streak_stats(ac_problems_map)
 
     user_rating = fetch_user_rating(USER_ID)
+    latest_submission_epoch = max(
+        (s.get("epoch_second", 0) for s in submissions), default=0
+    )
     summary_payload = {
         "user_id": USER_ID,
         "user_rating": user_rating,
@@ -654,6 +649,8 @@ def main() -> None:
         "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "total_ac_count": len(ac_problems_map),
         "analyzed_ac_count": sum(1 for x in ac_list_output if x["analyzed"]),
+        "latest_submission_epoch": latest_submission_epoch,
+        "all_ac_ids": sorted(ac_problems_map.keys()),
         "recent_trend_badge": trend_text,
         "focus_parameters": top_trend,
         "weekly_stats": weekly_stats,

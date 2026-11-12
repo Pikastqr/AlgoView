@@ -260,8 +260,15 @@ const state = {
   checkedProblemIds: new Set(), // 当日のピックアップ完了表示用（日付変更で自動更新）
   earnedBonusMap: {}, // 獲得済みパラメータボーナス辞書（日付が変わっても永続保持）
   autoPraisedIds: new Set(),
+  snapshotAcIds: new Set(),
   liveAcSet: new Set(),
   lastMaxEpochSecond: 0,
+  catalogLoaded: false,
+  catalogProblems: null,
+  catalogModels: null,
+  problemMetaById: {},
+  syncPromise: null,
+  syncShowToast: false,
   radarCurrentValues: { IMP: 0, DS: 0, GRP: 0, DP: 0, MTH: 0, INS: 0, OPT: 0 },
   radarTargetValues: { IMP: 0, DS: 0, GRP: 0, DP: 0, MTH: 0, INS: 0, OPT: 0 },
   radarAnimFrame: null,
@@ -388,6 +395,7 @@ function calculateParameterBreakdown() {
   const acScale = 0.08;
   for (const prob of acList) {
     if ((prob.epoch_second || 0) <= BASELINE_EPOCH_SECOND) continue;
+    if (state.earnedBonusMap[prob.problem_id]) continue;
     const weights = prob.weights || state.analyzedProblems[prob.problem_id]?.weights;
     if (!weights) continue;
     const diff = prob.difficulty || 500;
@@ -598,9 +606,21 @@ function renderWeeklyStatsAndChart() {
 
   let checkedCount = 0;
   let checkedPoints = 0;
-  for (const bonusItem of Object.values(state.earnedBonusMap)) {
+  const countedIds = new Set();
+
+  for (const [pid, bonusItem] of Object.entries(state.earnedBonusMap)) {
+    if (state.snapshotAcIds.has(pid)) continue;
+    countedIds.add(pid);
     checkedCount += 1;
     checkedPoints += bonusItem.difficulty || 600;
+  }
+
+  for (const prob of state.userSummary?.ac_problems || []) {
+    const pid = prob.problem_id;
+    if (!pid || state.snapshotAcIds.has(pid) || countedIds.has(pid)) continue;
+    countedIds.add(pid);
+    checkedCount += 1;
+    checkedPoints += prob.difficulty || 0;
   }
 
   const totalWeeklyAc = (ws.this_week_ac || 0) + checkedCount;
@@ -612,7 +632,7 @@ function renderWeeklyStatsAndChart() {
   document.getElementById('stat-weekly-ac').textContent = totalWeeklyAc.toLocaleString();
   document.getElementById('stat-weekly-points').textContent = totalWeeklyPoints.toLocaleString();
 
-  const totalAc = (state.userSummary?.total_ac_count || 0) + checkedCount;
+  const totalAc = Math.max((state.userSummary?.total_ac_count || 0) + checkedCount, state.liveAcSet.size);
   document.getElementById('stat-total-ac-sub').textContent =
     `Total: ${totalAc.toLocaleString()} AC (+${checkedCount})`;
 
@@ -743,6 +763,7 @@ function buildDailyPool(staticPool, fullProblemsList = null, problemModels = nul
 
   const acSet = new Set([
     ...Array.from(state.liveAcSet),
+    ...(state.userSummary?.all_ac_ids || []),
     ...(state.userSummary?.ac_problems || []).map((p) => p.problem_id),
     ...Object.keys(state.earnedBonusMap),
   ]);
@@ -876,12 +897,16 @@ function updatePickupStatusFooter() {
   }
 }
 
+function delayMs(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function verifyProblemAcFromApi(problemId) {
   if (state.liveAcSet.has(problemId)) {
     return true;
   }
   const userId = state.userSummary?.user_id || 'Pikapurin';
-  let fromSecond = state.lastMaxEpochSecond || 0;
+  let fromSecond = state.lastMaxEpochSecond > 0 ? Math.max(0, state.lastMaxEpochSecond - 30) : 0;
 
   while (true) {
     const url = `https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=${encodeURIComponent(userId)}&from_second=${fromSecond}`;
@@ -900,6 +925,7 @@ async function verifyProblemAcFromApi(problemId) {
     }
     if (batch.length < 500) break;
     fromSecond = state.lastMaxEpochSecond + 1;
+    await delayMs(350);
   }
 
   return state.liveAcSet.has(problemId);
@@ -1123,61 +1149,89 @@ function setupDiagnosisDialog() {
 // 13. AtCoder Problems API リアルタイム同期 ＆ 全問題カタログ統合
 // ============================================================================
 async function syncWithLiveAtCoderApi(showManualFeedback = false) {
+  if (showManualFeedback) {
+    state.syncShowToast = true;
+    showToast(`API同期中 (${state.userSummary?.user_id || 'Pikapurin'})...`);
+  }
+
+  if (state.syncPromise) {
+    return state.syncPromise;
+  }
+
+  state.syncPromise = runLiveAtCoderSync().finally(() => {
+    state.syncPromise = null;
+    state.syncShowToast = false;
+  });
+  return state.syncPromise;
+}
+
+async function runLiveAtCoderSync() {
   const userId = state.userSummary?.user_id || 'Pikapurin';
 
   try {
-    if (showManualFeedback) {
-      showToast(`API同期中 (${userId})...`);
-    }
 
-    const submissions = [];
-    let fromSecond = 0;
+    const fetchedSubs = [];
+    let fromSecond = state.lastMaxEpochSecond > 0 ? Math.max(0, state.lastMaxEpochSecond - 30) : 0;
     while (true) {
       const url = `https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=${encodeURIComponent(userId)}&from_second=${fromSecond}`;
       const resp = await fetch(url);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const batch = await resp.json();
-      if (!batch.length) break;
-      submissions.push(...batch);
+      if (!Array.isArray(batch) || !batch.length) break;
+      fetchedSubs.push(...batch);
       if (batch.length < 500) break;
-      fromSecond = Math.max(...batch.map((s) => s.epoch_second || 0)) + 1;
+      const batchMax = Math.max(...batch.map((s) => s.epoch_second || 0));
+      if (batchMax < fromSecond) break;
+      fromSecond = batchMax + 1;
+      await delayMs(350);
     }
 
-    const liveAcIds = new Set();
-    for (const sub of submissions) {
+    const prevAcIds = new Set(state.liveAcSet);
+    const newlyDiscoveredSubs = [];
+    const seenNewPids = new Set();
+
+    fetchedSubs.sort((a, b) => (a.epoch_second || 0) - (b.epoch_second || 0));
+    for (const sub of fetchedSubs) {
       if (sub.epoch_second && sub.epoch_second > state.lastMaxEpochSecond) {
         state.lastMaxEpochSecond = sub.epoch_second;
       }
       if (sub.result === 'AC' && sub.problem_id) {
-        liveAcIds.add(sub.problem_id);
+        state.liveAcSet.add(sub.problem_id);
+        if (!prevAcIds.has(sub.problem_id) && !seenNewPids.has(sub.problem_id)) {
+          seenNewPids.add(sub.problem_id);
+          newlyDiscoveredSubs.push(sub);
+        }
       }
     }
-    state.liveAcSet = liveAcIds;
 
-    if (state.userSummary && liveAcIds.size > 0) {
-      state.userSummary.total_ac_count = liveAcIds.size;
-      renderWeeklyStatsAndChart();
+    // カタログJSON（約2.4MB）は別try/catchで初回のみ取得し、失敗しても提出同期は継続する
+    let catalogJustLoaded = false;
+    if (!state.catalogLoaded) {
+      try {
+        const [probsResp, modelsResp] = await Promise.all([
+          fetch('https://kenkoooo.com/atcoder/resources/problems.json'),
+          fetch('https://kenkoooo.com/atcoder/resources/problem-models.json'),
+        ]);
+        if (probsResp.ok && modelsResp.ok) {
+          state.catalogProblems = await probsResp.json();
+          state.catalogModels = await modelsResp.json();
+          state.catalogLoaded = true;
+          for (const item of state.catalogProblems) {
+            if (item?.id) {
+              state.problemMetaById[item.id] = item;
+            }
+          }
+          catalogJustLoaded = true;
+        }
+      } catch (catalogErr) {
+        console.warn('Problem catalog fetch skipped (using cached pool):', catalogErr);
+      }
     }
 
-    // 典型90・ABC・ARC・AGCの全未AC問題を候補プールに展開
-    const [probsResp, modelsResp] = await Promise.all([
-      fetch('https://kenkoooo.com/atcoder/resources/problems.json'),
-      fetch('https://kenkoooo.com/atcoder/resources/problem-models.json'),
-    ]);
-    if (probsResp.ok && modelsResp.ok) {
-      const fullProblems = await probsResp.json();
-      const problemModels = await modelsResp.json();
-      buildDailyPool(
-        state.userSummary?.recommendations_pool || [],
-        fullProblems,
-        problemModels
-      );
-      renderInitialPickupCards();
-    }
-
+    // 現在のピックアップ候補に含まれる新規ACを先に自動検出し、ボーナスを付与
     let newlyAutoDetected = 0;
     for (const prob of state.dailyPool.slice(0, 15)) {
-      if (liveAcIds.has(prob.problem_id) && !state.checkedProblemIds.has(prob.problem_id)) {
+      if (state.liveAcSet.has(prob.problem_id) && !state.checkedProblemIds.has(prob.problem_id)) {
         newlyAutoDetected += 1;
         state.autoPraisedIds.add(prob.problem_id);
         saveAutoPraised();
@@ -1186,13 +1240,74 @@ async function syncWithLiveAtCoderApi(showManualFeedback = false) {
       }
     }
 
-    if (showManualFeedback && newlyAutoDetected === 0) {
-      showToast(`同期完了 (実AC: ${liveAcIds.size}問)`);
+    if (newlyDiscoveredSubs.length > 0 && state.userSummary) {
+      const poolById = new Map();
+      for (const p of state.dailyPool) poolById.set(p.problem_id, p);
+      for (const p of state.userSummary.recommendations_pool || []) poolById.set(p.problem_id, p);
+
+      const existingAcMap = new Map(
+        (state.userSummary.ac_problems || []).map((p) => [p.problem_id, p])
+      );
+
+      for (const sub of newlyDiscoveredSubs) {
+        const pid = sub.problem_id;
+        if (existingAcMap.has(pid)) continue;
+        const meta = state.problemMetaById[pid] || poolById.get(pid) || state.analyzedProblems[pid] || {};
+        const modelDiff = state.catalogModels?.[pid]?.difficulty;
+        const difficulty = clipDifficulty(modelDiff) ?? meta.difficulty ?? 500;
+        const contestId = sub.contest_id || meta.contest_id || pid.split('_')[0];
+        const title = meta.title || meta.name || pid;
+        const inferred = inferWeightsAndTagsForProblem(pid, title, contestId, difficulty);
+        const weights = state.analyzedProblems[pid]?.weights || meta.weights || inferred.weights;
+        const tags = state.analyzedProblems[pid]?.tags || meta.tags || inferred.tags;
+
+        existingAcMap.set(pid, {
+          problem_id: pid,
+          contest_id: contestId,
+          title,
+          difficulty,
+          epoch_second: sub.epoch_second,
+          tags,
+          weights,
+        });
+      }
+
+      state.userSummary.ac_problems = Array.from(existingAcMap.values()).sort(
+        (a, b) => (b.epoch_second || 0) - (a.epoch_second || 0)
+      );
+      state.userSummary.all_ac_ids = Array.from(state.liveAcSet);
+      state.userSummary.latest_submission_epoch = state.lastMaxEpochSecond;
+
+      buildDailyPool(
+        state.userSummary.recommendations_pool || [],
+        state.catalogProblems,
+        state.catalogModels
+      );
+      renderInitialPickupCards();
+      renderRecentAcHistory();
+      renderWeeklyStatsAndChart();
+      updateRadarTargetsAndAnimate();
+    } else if (catalogJustLoaded) {
+      buildDailyPool(
+        state.userSummary?.recommendations_pool || [],
+        state.catalogProblems,
+        state.catalogModels
+      );
+      renderInitialPickupCards();
+    }
+
+    if (state.syncShowToast && newlyAutoDetected === 0) {
+      const totalDisplay = state.liveAcSet.size || state.userSummary?.total_ac_count || 0;
+      const msg =
+        newlyDiscoveredSubs.length > 0
+          ? `同期完了: 新規AC ${newlyDiscoveredSubs.length}問を反映 (累計 ${totalDisplay}問)`
+          : `同期完了: 最新の状態です (実AC: ${totalDisplay}問)`;
+      showToast(msg);
     }
   } catch (err) {
-    console.info('Live API sync fallback (using static JSON):', err.message);
-    if (showManualFeedback) {
-      showToast('キャッシュJSONデータを表示中です');
+    console.warn('Live API sync fallback (using static JSON):', err.message);
+    if (state.syncShowToast) {
+      showToast('API同期に失敗しました（キャッシュJSONを表示中）');
     }
   }
 }
@@ -1228,6 +1343,19 @@ async function initApp() {
     ]);
     state.userSummary = await summaryResp.json();
     state.analyzedProblems = await analyzedResp.json();
+
+    const initialAcIds = [
+      ...(state.userSummary?.all_ac_ids || []),
+      ...(state.userSummary?.ac_problems || []).map((p) => p.problem_id),
+    ];
+    state.snapshotAcIds = new Set(initialAcIds);
+    state.liveAcSet = new Set(initialAcIds);
+    if (state.userSummary?.latest_submission_epoch) {
+      state.lastMaxEpochSecond = Math.max(
+        state.lastMaxEpochSecond,
+        state.userSummary.latest_submission_epoch
+      );
+    }
   } catch (err) {
     console.error('Failed to load initial JSON data:', err);
   }
