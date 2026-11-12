@@ -70,10 +70,10 @@ const RATING_RINGS = [
 ];
 
 const STORAGE_KEYS = {
-  CHECKED_PROBLEMS: 'algoview_checked_problems_v2',
-  EARNED_BONUS_MAP: 'algoview_earned_bonus_map_v2',
-  LAST_PICKUP_DATE: 'algoview_last_pickup_date_v2',
-  AUTO_PRAISED: 'algoview_auto_praised_v2',
+  CHECKED_PROBLEMS: 'algoview_checked_problems_v3',
+  EARNED_BONUS_MAP: 'algoview_earned_bonus_map_v3',
+  LAST_PICKUP_DATE: 'algoview_last_pickup_date_v3',
+  AUTO_PRAISED: 'algoview_auto_praised_v3',
 };
 
 const LEGACY_KEYS_TO_CLEAR = [
@@ -83,7 +83,15 @@ const LEGACY_KEYS_TO_CLEAR = [
   'algoview_earned_bonus_map_v1',
   'algoview_last_pickup_date_v1',
   'algoview_auto_praised_v1',
+  'algoview_checked_problems_v2',
+  'algoview_earned_bonus_map_v2',
+  'algoview_last_pickup_date_v2',
+  'algoview_auto_praised_v2',
 ];
+
+// 初期値設定時点（既存の325 AC完了時点）の基準タイムスタンプ
+// これより後に新規ACした問題のみ初期値（800/600/200/400/600/600/400）へ加算する
+const BASELINE_EPOCH_SECOND = 1794472000;
 
 // ============================================================================
 // 2. 日付シード・乱数シャッフルユーティリティ（日替わり自動更新用）
@@ -253,6 +261,7 @@ const state = {
   earnedBonusMap: {}, // 獲得済みパラメータボーナス辞書（日付が変わっても永続保持）
   autoPraisedIds: new Set(),
   liveAcSet: new Set(),
+  lastMaxEpochSecond: 0,
   radarCurrentValues: { IMP: 0, DS: 0, GRP: 0, DP: 0, MTH: 0, INS: 0, OPT: 0 },
   radarTargetValues: { IMP: 0, DS: 0, GRP: 0, DP: 0, MTH: 0, INS: 0, OPT: 0 },
   radarAnimFrame: null,
@@ -378,6 +387,7 @@ function calculateParameterBreakdown() {
   const acList = state.userSummary?.ac_problems || [];
   const acScale = 0.08;
   for (const prob of acList) {
+    if ((prob.epoch_second || 0) <= BASELINE_EPOCH_SECOND) continue;
     const weights = prob.weights || state.analyzedProblems[prob.problem_id]?.weights;
     if (!weights) continue;
     const diff = prob.difficulty || 500;
@@ -866,8 +876,66 @@ function updatePickupStatusFooter() {
   }
 }
 
+async function verifyProblemAcFromApi(problemId) {
+  if (state.liveAcSet.has(problemId)) {
+    return true;
+  }
+  const userId = state.userSummary?.user_id || 'Pikapurin';
+  let fromSecond = state.lastMaxEpochSecond || 0;
+
+  while (true) {
+    const url = `https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=${encodeURIComponent(userId)}&from_second=${fromSecond}`;
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const batch = await resp.json();
+    if (!batch.length) break;
+
+    for (const sub of batch) {
+      if (sub.epoch_second && sub.epoch_second > state.lastMaxEpochSecond) {
+        state.lastMaxEpochSecond = sub.epoch_second;
+      }
+      if (sub.result === 'AC' && sub.problem_id) {
+        state.liveAcSet.add(sub.problem_id);
+      }
+    }
+    if (batch.length < 500) break;
+    fromSecond = state.lastMaxEpochSecond + 1;
+  }
+
+  return state.liveAcSet.has(problemId);
+}
+
 async function handleCheckProblem(prob, cardElement, isAutoDetected = false) {
   if (state.checkedProblemIds.has(prob.problem_id)) return;
+
+  const checkBtn = cardElement?.querySelector('.btn-ac-check');
+  const labelSpan = checkBtn?.querySelector('span:first-child');
+
+  // ボタン押下時は AtCoder Problems API で実際にAC済みか検証する
+  if (!isAutoDetected) {
+    if (checkBtn) checkBtn.disabled = true;
+    if (labelSpan) labelSpan.textContent = '確認中...';
+
+    try {
+      const isReallyAc = await verifyProblemAcFromApi(prob.problem_id);
+      if (!isReallyAc) {
+        if (checkBtn) checkBtn.disabled = false;
+        if (labelSpan) labelSpan.textContent = 'AC完了';
+        if (cardElement) {
+          cardElement.classList.remove('card-unverified-shake');
+          void cardElement.offsetWidth;
+          cardElement.classList.add('card-unverified-shake');
+        }
+        showToast(`未AC: AtCoder上で「${prob.title}」のAC提出がまだ確認できません`);
+        return;
+      }
+    } catch (err) {
+      if (checkBtn) checkBtn.disabled = false;
+      if (labelSpan) labelSpan.textContent = 'AC完了';
+      showToast('API通信エラーのためAC確認ができませんでした');
+      return;
+    }
+  }
 
   const { reservePool } = getActiveAndReserveRecommendations();
   const nextReplacementProb = reservePool[0] || null;
@@ -892,7 +960,7 @@ async function handleCheckProblem(prob, cardElement, isAutoDetected = false) {
   if (isAutoDetected) {
     showToast(`AC検知: ${prob.title} (${tagText})`);
   } else {
-    showToast(`AC完了: ${prob.title} (${tagText})`);
+    showToast(`AC確認完了: ${prob.title} (${tagText})`);
   }
 
   updateRadarTargetsAndAnimate();
@@ -1077,6 +1145,9 @@ async function syncWithLiveAtCoderApi(showManualFeedback = false) {
 
     const liveAcIds = new Set();
     for (const sub of submissions) {
+      if (sub.epoch_second && sub.epoch_second > state.lastMaxEpochSecond) {
+        state.lastMaxEpochSecond = sub.epoch_second;
+      }
       if (sub.result === 'AC' && sub.problem_id) {
         liveAcIds.add(sub.problem_id);
       }
