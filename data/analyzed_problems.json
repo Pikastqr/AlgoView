@@ -1,0 +1,1786 @@
+{
+  "abc378_d": {
+    "problem_id": "abc378_d",
+    "title": "D - Count Simple Paths",
+    "contest_id": "abc378",
+    "difficulty": 642,
+    "weights": {
+      "IMP": 20,
+      "DS": 0,
+      "GRP": 50,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 10,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グリッド上の移動経路を状態管理しながら丁寧に数え上げる探索の良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc377_d": {
+    "problem_id": "abc377_d",
+    "title": "D - Many Segments 2",
+    "contest_id": "abc377",
+    "difficulty": 825,
+    "weights": {
+      "IMP": 10,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 25,
+      "OPT": 35
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "区間条件の言い換えと高速な境界更新で一気に視界が開ける爽快問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc376_d": {
+    "problem_id": "abc376_d",
+    "title": "D - Cycle",
+    "contest_id": "abc376",
+    "difficulty": 610,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 55,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 15,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "頂点1を含む最小閉路をどう捉えるか？グラフ探索の基礎体力が光る一問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc375_d": {
+    "problem_id": "abc375_d",
+    "title": "D - ABA",
+    "contest_id": "abc375",
+    "difficulty": 580,
+    "weights": {
+      "IMP": 10,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 25,
+      "INS": 15,
+      "OPT": 30
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "3文字の組のどこに注目するかで計算量が劇的に変わる数え上げの定番！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc374_d": {
+    "problem_id": "abc374_d",
+    "title": "D - Laser Marking",
+    "contest_id": "abc374",
+    "difficulty": 540,
+    "weights": {
+      "IMP": 35,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 15,
+      "MTH": 15,
+      "INS": 10,
+      "OPT": 25
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "小さな制約を見逃さず、順序と向きの全パターンを正確に実装し切る良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc373_d": {
+    "problem_id": "abc373_d",
+    "title": "D - Hidden Weights",
+    "contest_id": "abc373",
+    "difficulty": 690,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 50,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "頂点間の差分制約を有向グラフの重みとして伝播させる王道テクニック！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc372_d": {
+    "problem_id": "abc372_d",
+    "title": "D - Buildings",
+    "contest_id": "abc372",
+    "difficulty": 910,
+    "weights": {
+      "IMP": 10,
+      "DS": 45,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 20,
+      "OPT": 25
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "後ろから見る視点の転換とデータ構造の噛み合わせが気持ちいい緑上位問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc371_d": {
+    "problem_id": "abc371_d",
+    "title": "D - 1D Country",
+    "contest_id": "abc371",
+    "difficulty": 480,
+    "weights": {
+      "IMP": 10,
+      "DS": 25,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 15,
+      "OPT": 50
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "広い座標上の区間クエリを境界探索と前処理で高速にさばく必須テーマ！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc370_d": {
+    "problem_id": "abc370_d",
+    "title": "D - Cross Explosion",
+    "contest_id": "abc370",
+    "difficulty": 965,
+    "weights": {
+      "IMP": 25,
+      "DS": 55,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 0,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "行と列の順序付き集合を駆使して上下左右の最近傍を高速検索する実戦問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc369_d": {
+    "problem_id": "abc369_d",
+    "title": "D - Bonus EXP",
+    "contest_id": "abc369",
+    "difficulty": 520,
+    "weights": {
+      "IMP": 10,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 70,
+      "MTH": 0,
+      "INS": 20,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "偶奇の2状態を持つだけで綺麗に遷移が書ける動的計画法の基礎マスター問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc368_d": {
+    "problem_id": "abc368_d",
+    "title": "D - Minimum Steiner Tree",
+    "contest_id": "abc368",
+    "difficulty": 780,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 50,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 20,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "不要な葉を削るか部分木を辿るか？木の構造的性質を深く味わえる良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc367_d": {
+    "problem_id": "abc367_d",
+    "title": "D - Pedometer",
+    "contest_id": "abc367",
+    "difficulty": 940,
+    "weights": {
+      "IMP": 15,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 30,
+      "INS": 15,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "円環上の距離とMODの相性を活かしてペア数を高速に求める中級への登竜門！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc366_d": {
+    "problem_id": "abc366_d",
+    "title": "D - Cuboid Sum Query",
+    "contest_id": "abc366",
+    "difficulty": 630,
+    "weights": {
+      "IMP": 25,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 10,
+      "MTH": 15,
+      "INS": 0,
+      "OPT": 35
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "3次元空間の直方体総和クエリを包除の原理と前処理でO(1)応答する快感！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc365_d": {
+    "problem_id": "abc365_d",
+    "title": "D - AtCoder Janken 3",
+    "contest_id": "abc365",
+    "difficulty": 650,
+    "weights": {
+      "IMP": 15,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 65,
+      "MTH": 0,
+      "INS": 20,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "直前の手を状態に持つことで禁止遷移をシンプルに表現できるDPの王道問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc364_d": {
+    "problem_id": "abc364_d",
+    "title": "D - K-th Nearest",
+    "contest_id": "abc364",
+    "difficulty": 1020,
+    "weights": {
+      "IMP": 10,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 25,
+      "OPT": 45
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "「K番目に近い距離」を判定問題に言い換えて対数時間で射抜く実力派問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc363_d": {
+    "problem_id": "abc363_d",
+    "title": "D - Palindromic Number",
+    "contest_id": "abc363",
+    "difficulty": 760,
+    "weights": {
+      "IMP": 25,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 50,
+      "INS": 25,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "桁数ごとの個数を冷静に見積もり、前半部分からN番目の回文数を構築する良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc362_d": {
+    "problem_id": "abc362_d",
+    "title": "D - Shortest Path 3",
+    "contest_id": "abc362",
+    "difficulty": 680,
+    "weights": {
+      "IMP": 10,
+      "DS": 25,
+      "GRP": 55,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "頂点重みと辺重みが混在するグラフで最短経路コストをどう定義するかが鍵！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc361_d": {
+    "problem_id": "abc361_d",
+    "title": "D - Go Stone Puzzle",
+    "contest_id": "abc361",
+    "difficulty": 990,
+    "weights": {
+      "IMP": 25,
+      "DS": 20,
+      "GRP": 40,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 15,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "盤面の状態を頂点とみなして最短手数を求める「状態空間グラフ探索」の名作！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc360_d": {
+    "problem_id": "abc360_d",
+    "title": "D - Ghost Ants",
+    "contest_id": "abc360",
+    "difficulty": 670,
+    "weights": {
+      "IMP": 10,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 25,
+      "OPT": 40
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "すれ違う条件を向きごとに整理し、範囲内の個数を高速に数える考察＆探索問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc359_d": {
+    "problem_id": "abc359_d",
+    "title": "D - Avoid K Palindrome",
+    "contest_id": "abc359",
+    "difficulty": 1080,
+    "weights": {
+      "IMP": 15,
+      "DS": 10,
+      "GRP": 0,
+      "DP": 55,
+      "MTH": 10,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "直近K-1文字のビット列を状態に持って禁止部分文字列を回避する本格bitDP！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc358_d": {
+    "problem_id": "abc358_d",
+    "title": "D - Souvenirs",
+    "contest_id": "abc358",
+    "difficulty": 460,
+    "weights": {
+      "IMP": 10,
+      "DS": 30,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 35,
+      "OPT": 25
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "どの箱から割り当てるべきか？貪欲法の正当性と順序探索が身につく基礎良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc357_d": {
+    "problem_id": "abc357_d",
+    "title": "D - 88888888",
+    "contest_id": "abc357",
+    "difficulty": 840,
+    "weights": {
+      "IMP": 10,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 65,
+      "INS": 15,
+      "OPT": 10
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "巨大な繰り返し整数を等比数列の和として捉え、MOD逆元と累乗で解き放つ数学問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc356_d": {
+    "problem_id": "abc356_d",
+    "title": "D - Masked Popcount",
+    "contest_id": "abc356",
+    "difficulty": 730,
+    "weights": {
+      "IMP": 15,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 10,
+      "MTH": 50,
+      "INS": 25,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "ビットごとの周期性に注目して0〜Nの立っているビット総数を一気に計算！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc355_d": {
+    "problem_id": "abc355_d",
+    "title": "D - Intersecting Intervals",
+    "contest_id": "abc355",
+    "difficulty": 710,
+    "weights": {
+      "IMP": 10,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 15,
+      "INS": 30,
+      "OPT": 25
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "「共通部分を持つ区間ペア」を余事象またはソート順走査でスッキリ数える定番題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc354_c": {
+    "problem_id": "abc354_c",
+    "title": "C - AtCoder Magics",
+    "contest_id": "abc354",
+    "difficulty": 430,
+    "weights": {
+      "IMP": 20,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 35,
+      "OPT": 25
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "2つの属性でソートしたときに生き残る条件を見抜くパレート最適の基礎良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc353_d": {
+    "problem_id": "abc353_d",
+    "title": "D - Another Sigma Problem",
+    "contest_id": "abc353",
+    "difficulty": 620,
+    "weights": {
+      "IMP": 15,
+      "DS": 10,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 45,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "文字列連結の数値和を「左側の寄与」と「右側の寄与」に分解して高速計算！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc352_d": {
+    "problem_id": "abc352_d",
+    "title": "D - Permutation Subsequence",
+    "contest_id": "abc352",
+    "difficulty": 695,
+    "weights": {
+      "IMP": 15,
+      "DS": 55,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 10,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "スライドする長さKの窓の最大値・最小値をデータ構造で高速メンテナンス！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc351_d": {
+    "problem_id": "abc351_d",
+    "title": "D - Grid and Magnet",
+    "contest_id": "abc351",
+    "difficulty": 980,
+    "weights": {
+      "IMP": 30,
+      "DS": 15,
+      "GRP": 45,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "磁石に隣接するマスの扱いに注意しながら連結成分ごとの到達可能数を求める良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "typical90_b": {
+    "problem_id": "typical90_b",
+    "title": "002 - Encyclopedia of Parentheses（★3）",
+    "contest_id": "typical90",
+    "difficulty": 450,
+    "weights": {
+      "IMP": 25,
+      "DS": 10,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 20,
+      "OPT": 45
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "正しいカッコ列の条件を判定しながら全探索で辞書順列挙する競プロの基本！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "typical90_c": {
+    "problem_id": "typical90_c",
+    "title": "003 - Longest Circular Road（★4）",
+    "contest_id": "typical90",
+    "difficulty": 780,
+    "weights": {
+      "IMP": 10,
+      "DS": 10,
+      "GRP": 60,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 20,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "木に1本辺を足してできる最大サイクル長＝木の直径！2回探索の黄金パターン！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "typical90_h": {
+    "problem_id": "typical90_h",
+    "title": "008 - AtCounter（★4）",
+    "contest_id": "typical90",
+    "difficulty": 720,
+    "weights": {
+      "IMP": 10,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 65,
+      "MTH": 15,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "部分列として「atcoder」が何通り作れるかを7状態の耳DPで数え上げる名問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "typical90_l": {
+    "problem_id": "typical90_l",
+    "title": "012 - Red Painting（★4）",
+    "contest_id": "typical90",
+    "difficulty": 740,
+    "weights": {
+      "IMP": 20,
+      "DS": 60,
+      "GRP": 20,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 0,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的に赤く塗られるグリッドの連結判定をUnion-Findで高速処理する鉄板問題！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "typical90_z": {
+    "problem_id": "typical90_z",
+    "title": "026 - Independent Set on a Tree（★4）",
+    "contest_id": "typical90",
+    "difficulty": 790,
+    "weights": {
+      "IMP": 10,
+      "DS": 10,
+      "GRP": 50,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "木は必ず二部グラフになる性質を活かしてN/2個の独立集合を取り出す美しい一問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc378_e": {
+    "problem_id": "abc378_e",
+    "title": "E - Mod Sigma Problem",
+    "contest_id": "abc378",
+    "difficulty": 1180,
+    "weights": {
+      "IMP": 10,
+      "DS": 45,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 20,
+      "INS": 10,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "区間和のMOD総和を累積和＋転倒数（Fenwick木）に帰着させる水色帯の良問！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc376_e": {
+    "problem_id": "abc376_e",
+    "title": "E - Max × Sum",
+    "contest_id": "abc376",
+    "difficulty": 1040,
+    "weights": {
+      "IMP": 10,
+      "DS": 40,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 25,
+      "OPT": 25
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "最大値を固定するためにソートし、優先度付きキューで上位K個の最小和を保つ名作！",
+    "analyzed_at": "2026-11-12T12:00:00+00:00"
+  },
+  "abc296_c": {
+    "problem_id": "abc296_c",
+    "title": "C - Gap Existence",
+    "contest_id": "abc296",
+    "difficulty": 162,
+    "weights": {
+      "IMP": 15,
+      "DS": 35,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 10,
+      "OPT": 30
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "差がXになるペアの存在判定を集合や二分探索で高速に行う基本良問！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc369_b": {
+    "problem_id": "abc369_b",
+    "title": "B - Piano 3",
+    "contest_id": "abc369",
+    "difficulty": 62,
+    "weights": {
+      "IMP": 65,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 25,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "左右の手の現在位置を個別に管理して移動距離をシミュレートする実装問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc232_b": {
+    "problem_id": "abc232_b",
+    "title": "B - Caesar Cipher",
+    "contest_id": "abc232",
+    "difficulty": 82,
+    "weights": {
+      "IMP": 55,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 30,
+      "INS": 15,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "円環上の文字シフト量をMOD 26で揃えて一致判定する文字列処理の基本！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc225_a": {
+    "problem_id": "abc225_a",
+    "title": "A - Distinct Strings",
+    "contest_id": "abc225",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 40,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 40,
+      "INS": 0,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "3文字の並び替えで作れる異なる文字列数を集合または場合分けで求める問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc483_b": {
+    "problem_id": "abc483_b",
+    "title": "B. Flip Card Stack",
+    "contest_id": "abc483",
+    "difficulty": 75,
+    "weights": {
+      "IMP": 60,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 25,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "カード列の状態変化を正確に追いかけるシミュレーション実装問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc483_a": {
+    "problem_id": "abc483_a",
+    "title": "A. Double-Sided Printing",
+    "contest_id": "abc483",
+    "difficulty": 16,
+    "weights": {
+      "IMP": 50,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 50,
+      "INS": 0,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "切り上げ除算を正確に処理する算数・実装の基礎問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc482_d": {
+    "problem_id": "abc482_d",
+    "title": "D. Wannabe Zombie",
+    "contest_id": "abc482",
+    "difficulty": 766,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 45,
+      "MTH": 0,
+      "INS": 25,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "状態遷移の条件を整理して最適解を導く実践的な中級問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc482_b": {
+    "problem_id": "abc482_b",
+    "title": "B. Blank Bingo",
+    "contest_id": "abc482",
+    "difficulty": 65,
+    "weights": {
+      "IMP": 70,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 15,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "グリッド上の縦・横・斜めの条件判定をバグなく書き切る実装問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc482_a": {
+    "problem_id": "abc482_a",
+    "title": "A. Nigiri",
+    "contest_id": "abc482",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 70,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 30,
+      "INS": 0,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "基本的な条件分岐を素早く正確に実装する問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc481_c": {
+    "problem_id": "abc481_c",
+    "title": "C. Bank Accounts",
+    "contest_id": "abc481",
+    "difficulty": 187,
+    "weights": {
+      "IMP": 25,
+      "DS": 35,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 10,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "口座ごとの残高推移を連想配列や配列で効率よく管理する問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc481_b": {
+    "problem_id": "abc481_b",
+    "title": "B. Polyline",
+    "contest_id": "abc481",
+    "difficulty": 78,
+    "weights": {
+      "IMP": 55,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 35,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "座標間の距離計算を順番に積み上げる幾何・シミュレーション問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc481_a": {
+    "problem_id": "abc481_a",
+    "title": "A. Digits of A+B",
+    "contest_id": "abc481",
+    "difficulty": 17,
+    "weights": {
+      "IMP": 60,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 40,
+      "INS": 0,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数値の加算と桁の扱いを正確に処理する基本問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc480_d": {
+    "problem_id": "abc480_d",
+    "title": "D. Concatenation of Prefixes",
+    "contest_id": "abc480",
+    "difficulty": 864,
+    "weights": {
+      "IMP": 15,
+      "DS": 20,
+      "GRP": 0,
+      "DP": 30,
+      "MTH": 0,
+      "INS": 15,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "接頭辞の連結構造を見抜いて高速に判定・構築する緑帯の良問！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc480_c": {
+    "problem_id": "abc480_c",
+    "title": "C. Self-Stopping Shower",
+    "contest_id": "abc480",
+    "difficulty": 625,
+    "weights": {
+      "IMP": 35,
+      "DS": 10,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 25,
+      "OPT": 30
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "区間の重なりと更新タイミングを冷静に整理して計算する茶上位問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc480_a": {
+    "problem_id": "abc480_a",
+    "title": "A. ADjacent",
+    "contest_id": "abc480",
+    "difficulty": 35,
+    "weights": {
+      "IMP": 75,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 25,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "隣接条件の判定をシンプルに実装する問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc479_d": {
+    "problem_id": "abc479_d",
+    "title": "D. Back and Forth Distance",
+    "contest_id": "abc479",
+    "difficulty": 563,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 20,
+      "INS": 20,
+      "OPT": 30
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "往復移動の累積距離と境界位置を二分探索・累積和で高速に求める良問！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc479_c": {
+    "problem_id": "abc479_c",
+    "title": "C. Bento Packing",
+    "contest_id": "abc479",
+    "difficulty": 276,
+    "weights": {
+      "IMP": 25,
+      "DS": 25,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 35,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "貪欲な選択順序とデータ管理を組み合わせるC問題の定番！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc479_b": {
+    "problem_id": "abc479_b",
+    "title": "B. Longest Rainy Streak",
+    "contest_id": "abc479",
+    "difficulty": 33,
+    "weights": {
+      "IMP": 70,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "連続する条件の最大長を走査して求めるランレングス的基礎問題！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc479_a": {
+    "problem_id": "abc479_a",
+    "title": "A. Odd Index Sum",
+    "contest_id": "abc479",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 80,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 20,
+      "INS": 0,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "添字の偶奇に着目して総和を求めるループ処理の基本！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "abc125_c": {
+    "problem_id": "abc125_c",
+    "title": "C - GCD on Blackboard",
+    "contest_id": "abc125",
+    "difficulty": 1197,
+    "weights": {
+      "IMP": 10,
+      "DS": 15,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 30,
+      "INS": 15,
+      "OPT": 30
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "1つを除いたGCDの最大値を左右からの累積GCDで高速に求める名作！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "typical90_p": {
+    "problem_id": "typical90_p",
+    "title": "016 - Minimum Coins（★3）",
+    "contest_id": "typical90",
+    "difficulty": 440,
+    "weights": {
+      "IMP": 15,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 25,
+      "INS": 20,
+      "OPT": 40
+    },
+    "tags": [
+      {
+        "param": "OPT",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "3種類の硬貨のうち2種類の枚数を固定して残りをO(1)で決める工夫探索の定番！",
+    "analyzed_at": "2026-11-12T14:00:00+00:00"
+  },
+  "arc177_a": {
+    "problem_id": "arc177_a",
+    "title": "A - Exchange",
+    "contest_id": "arc177",
+    "difficulty": 412,
+    "weights": {
+      "IMP": 25,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 20,
+      "INS": 45,
+      "OPT": 10
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ARC特有の貪欲な支払い順序の正当性を見抜く問題"
+  },
+  "arc179_a": {
+    "problem_id": "arc179_a",
+    "title": "A - Partition",
+    "contest_id": "arc179",
+    "difficulty": 585,
+    "weights": {
+      "IMP": 15,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 25,
+      "INS": 45,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "累積和の単調性とソート順の関係を考察するARC良問"
+  },
+  "arc180_a": {
+    "problem_id": "arc180_a",
+    "title": "A - ABA and BAB",
+    "contest_id": "arc180",
+    "difficulty": 530,
+    "weights": {
+      "IMP": 15,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 45,
+      "INS": 40,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      }
+    ],
+    "one_line_summary": "交互文字列の極大区間に分解して数え上げるARC定番"
+  },
+  "arc181_a": {
+    "problem_id": "arc181_a",
+    "title": "A - Sort Left and Right",
+    "contest_id": "arc181",
+    "difficulty": 640,
+    "weights": {
+      "IMP": 15,
+      "DS": 10,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 55,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "少数の操作回数で必ず達成できる性質を見抜く考察問題"
+  },
+  "agc040_a": {
+    "problem_id": "agc040_a",
+    "title": "A - ><",
+    "contest_id": "agc040",
+    "difficulty": 465,
+    "weights": {
+      "IMP": 20,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 15,
+      "MTH": 15,
+      "INS": 35,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "左右からの制約の最大値を取るAGC入門の代表的良問"
+  },
+  "agc029_a": {
+    "problem_id": "agc029_a",
+    "title": "A - Irreversible operation",
+    "contest_id": "agc029",
+    "difficulty": 438,
+    "weights": {
+      "IMP": 10,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 30,
+      "INS": 45,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "操作回数の上限が不変量（転倒数）に一致することを見抜く名問"
+  },
+  "agc033_a": {
+    "problem_id": "agc033_a",
+    "title": "A - Darker and Darker",
+    "contest_id": "agc033",
+    "difficulty": 725,
+    "weights": {
+      "IMP": 20,
+      "DS": 15,
+      "GRP": 55,
+      "DP": 0,
+      "MTH": 0,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "多始点BFSでグリッド全体の伝播ステップ数を求める基本良問"
+  },
+  "typical90_n": {
+    "problem_id": "typical90_n",
+    "title": "014 - We Used to Sing a Song Together（★3）",
+    "contest_id": "typical90",
+    "difficulty": 410,
+    "weights": {
+      "IMP": 15,
+      "DS": 10,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 15,
+      "INS": 45,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ソートして貪欲にマッチングさせる証明の基本"
+  },
+  "typical90_r": {
+    "problem_id": "typical90_r",
+    "title": "018 - Statue of Chokudai（★3）",
+    "contest_id": "typical90",
+    "difficulty": 510,
+    "weights": {
+      "IMP": 25,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 65,
+      "INS": 10,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "三角関数と3次元座標から俯角を求める幾何計算"
+  },
+  "typical90_t": {
+    "problem_id": "typical90_t",
+    "title": "020 - Log Inequality（★3）",
+    "contest_id": "typical90",
+    "difficulty": 460,
+    "weights": {
+      "IMP": 20,
+      "DS": 0,
+      "GRP": 0,
+      "DP": 0,
+      "MTH": 60,
+      "INS": 20,
+      "OPT": 0
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "浮動小数点誤差を回避するため整数演算へ式変形する問題"
+  }
+}

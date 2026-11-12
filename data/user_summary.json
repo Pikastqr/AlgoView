@@ -1,0 +1,3138 @@
+{
+  "user_id": "Pikapurin",
+  "user_rating": 793,
+  "profile_url": "https://atcoder.jp/users/Pikapurin",
+  "updated_at": "2026-11-12T14:59:58.629564+00:00",
+  "total_ac_count": 325,
+  "analyzed_ac_count": 22,
+  "weekly_stats": {
+    "this_week_ac": 4,
+    "this_week_points": 318,
+    "last_week_points": 91,
+    "points_diff_vs_last_week": 227,
+    "streak_days": 1,
+    "weekly_history": [
+      {
+        "week_label": "9/7〜",
+        "start_date": "2026-09-07",
+        "ac_count": 4,
+        "points": 293
+      },
+      {
+        "week_label": "9/14〜",
+        "start_date": "2026-09-14",
+        "ac_count": 4,
+        "points": 1067
+      },
+      {
+        "week_label": "9/21〜",
+        "start_date": "2026-09-21",
+        "ac_count": 4,
+        "points": 1498
+      },
+      {
+        "week_label": "9/28〜",
+        "start_date": "2026-09-28",
+        "ac_count": 6,
+        "points": 1463
+      },
+      {
+        "week_label": "10/5〜",
+        "start_date": "2026-10-05",
+        "ac_count": 5,
+        "points": 2081
+      },
+      {
+        "week_label": "10/12〜",
+        "start_date": "2026-10-12",
+        "ac_count": 3,
+        "points": 1524
+      },
+      {
+        "week_label": "10/19〜",
+        "start_date": "2026-10-19",
+        "ac_count": 3,
+        "points": 282
+      },
+      {
+        "week_label": "10/26〜",
+        "start_date": "2026-10-26",
+        "ac_count": 3,
+        "points": 843
+      },
+      {
+        "week_label": "11/2〜",
+        "start_date": "2026-11-02",
+        "ac_count": 2,
+        "points": 91
+      },
+      {
+        "week_label": "11/9〜",
+        "start_date": "2026-11-09",
+        "ac_count": 4,
+        "points": 318
+      }
+    ]
+  },
+  "recommendations_pool": [
+    {
+      "problem_id": "abc372_d",
+      "contest_id": "abc372",
+      "title": "D - Buildings",
+      "difficulty": 910,
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_d",
+      "weights": {
+        "IMP": 10,
+        "DS": 45,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 20,
+        "OPT": 25
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "後ろから見る視点の転換とデータ構造の噛み合わせが気持ちいい緑上位問題！"
+    },
+    {
+      "problem_id": "abc377_d",
+      "contest_id": "abc377",
+      "title": "D - Many Segments 2",
+      "difficulty": 825,
+      "url": "https://atcoder.jp/contests/abc377/tasks/abc377_d",
+      "weights": {
+        "IMP": 10,
+        "DS": 20,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 10,
+        "INS": 25,
+        "OPT": 35
+      },
+      "tags": [
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "DS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "区間条件の言い換えと高速な境界更新で一気に視界が開ける爽快問題！"
+    },
+    {
+      "problem_id": "typical90_l",
+      "contest_id": "typical90",
+      "title": "012 - Red Painting（★4）",
+      "difficulty": 740,
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l",
+      "weights": {
+        "IMP": 20,
+        "DS": 60,
+        "GRP": 20,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 0,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        },
+        {
+          "param": "GRP",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "動的に赤く塗られるグリッドの連結判定をUnion-Findで高速処理する鉄板問題！"
+    },
+    {
+      "problem_id": "abc368_d",
+      "contest_id": "abc368",
+      "title": "D - Minimum Steiner Tree",
+      "difficulty": 780,
+      "url": "https://atcoder.jp/contests/abc368/tasks/abc368_d",
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 50,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 20,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "不要な葉を削るか部分木を辿るか？木の構造的性質を深く味わえる良問！"
+    },
+    {
+      "problem_id": "abc364_d",
+      "contest_id": "abc364",
+      "title": "D - K-th Nearest",
+      "difficulty": 1020,
+      "url": "https://atcoder.jp/contests/abc364/tasks/abc364_d",
+      "weights": {
+        "IMP": 10,
+        "DS": 20,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 25,
+        "OPT": 45
+      },
+      "tags": [
+        {
+          "param": "OPT",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        }
+      ],
+      "one_line_summary": "「K番目に近い距離」を判定問題に言い換えて対数時間で射抜く実力派問題！"
+    },
+    {
+      "problem_id": "typical90_h",
+      "contest_id": "typical90",
+      "title": "008 - AtCounter（★4）",
+      "difficulty": 720,
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h",
+      "weights": {
+        "IMP": 10,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 65,
+        "MTH": 15,
+        "INS": 10,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "部分列として「atcoder」が何通り作れるかを7状態の耳DPで数え上げる名問！"
+    },
+    {
+      "problem_id": "abc370_d",
+      "contest_id": "abc370",
+      "title": "D - Cross Explosion",
+      "difficulty": 965,
+      "url": "https://atcoder.jp/contests/abc370/tasks/abc370_d",
+      "weights": {
+        "IMP": 25,
+        "DS": 55,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 0,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        }
+      ],
+      "one_line_summary": "行と列の順序付き集合を駆使して上下左右の最近傍を高速検索する実戦問題！"
+    },
+    {
+      "problem_id": "abc367_d",
+      "contest_id": "abc367",
+      "title": "D - Pedometer",
+      "difficulty": 940,
+      "url": "https://atcoder.jp/contests/abc367/tasks/abc367_d",
+      "weights": {
+        "IMP": 15,
+        "DS": 20,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 30,
+        "INS": 15,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        },
+        {
+          "param": "DS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "円環上の距離とMODの相性を活かしてペア数を高速に求める中級への登竜門！"
+    },
+    {
+      "problem_id": "typical90_p",
+      "contest_id": "typical90",
+      "title": "016 - Minimum Coins（★3）",
+      "difficulty": 440,
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_p",
+      "weights": {
+        "IMP": 15,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 25,
+        "INS": 20,
+        "OPT": 40
+      },
+      "tags": [
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "3種類の硬貨のうち2種類の枚数を固定して残りをO(1)で決める工夫探索の定番！"
+    },
+    {
+      "problem_id": "abc363_d",
+      "contest_id": "abc363",
+      "title": "D - Palindromic Number",
+      "difficulty": 760,
+      "url": "https://atcoder.jp/contests/abc363/tasks/abc363_d",
+      "weights": {
+        "IMP": 25,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 50,
+        "INS": 25,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "桁数ごとの個数を冷静に見積もり、前半部分からN番目の回文数を構築する良問！"
+    },
+    {
+      "problem_id": "abc361_d",
+      "contest_id": "abc361",
+      "title": "D - Go Stone Puzzle",
+      "difficulty": 990,
+      "url": "https://atcoder.jp/contests/abc361/tasks/abc361_d",
+      "weights": {
+        "IMP": 25,
+        "DS": 20,
+        "GRP": 40,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 15,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "DS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "盤面の状態を頂点とみなして最短手数を求める「状態空間グラフ探索」の名作！"
+    },
+    {
+      "problem_id": "abc359_d",
+      "contest_id": "abc359",
+      "title": "D - Avoid K Palindrome",
+      "difficulty": 1080,
+      "url": "https://atcoder.jp/contests/abc359/tasks/abc359_d",
+      "weights": {
+        "IMP": 15,
+        "DS": 10,
+        "GRP": 0,
+        "DP": 55,
+        "MTH": 10,
+        "INS": 10,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "直近K-1文字のビット列を状態に持って禁止部分文字列を回避する本格bitDP！"
+    },
+    {
+      "problem_id": "abc357_d",
+      "contest_id": "abc357",
+      "title": "D - 88888888",
+      "difficulty": 840,
+      "url": "https://atcoder.jp/contests/abc357/tasks/abc357_d",
+      "weights": {
+        "IMP": 10,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 65,
+        "INS": 15,
+        "OPT": 10
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "巨大な繰り返し整数を等比数列の和として捉え、MOD逆元と累乗で解き放つ数学問！"
+    },
+    {
+      "problem_id": "abc376_e",
+      "contest_id": "abc376",
+      "title": "E - Max × Sum",
+      "difficulty": 1040,
+      "url": "https://atcoder.jp/contests/abc376/tasks/abc376_e",
+      "weights": {
+        "IMP": 10,
+        "DS": 40,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 25,
+        "OPT": 25
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "最大値を固定するためにソートし、優先度付きキューで上位K個の最小和を保つ名作！"
+    },
+    {
+      "problem_id": "abc378_e",
+      "contest_id": "abc378",
+      "title": "E - Mod Sigma Problem",
+      "difficulty": 1180,
+      "url": "https://atcoder.jp/contests/abc378/tasks/abc378_e",
+      "weights": {
+        "IMP": 10,
+        "DS": 45,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 20,
+        "INS": 10,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "区間和のMOD総和を累積和＋転倒数（Fenwick木）に帰着させる水色帯の良問！"
+    },
+    {
+      "problem_id": "arc177_a",
+      "contest_id": "arc177",
+      "title": "A - Exchange",
+      "difficulty": 412,
+      "url": "https://atcoder.jp/contests/arc177/tasks/arc177_a",
+      "weights": {
+        "IMP": 25,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 20,
+        "INS": 45,
+        "OPT": 10
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "ARC特有の貪欲な支払い順序の正当性を見抜く問題"
+    },
+    {
+      "problem_id": "arc179_a",
+      "contest_id": "arc179",
+      "title": "A - Partition",
+      "difficulty": 585,
+      "url": "https://atcoder.jp/contests/arc179/tasks/arc179_a",
+      "weights": {
+        "IMP": 15,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 25,
+        "INS": 45,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "累積和の単調性とソート順の関係を考察するARC良問"
+    },
+    {
+      "problem_id": "arc180_a",
+      "contest_id": "arc180",
+      "title": "A - ABA and BAB",
+      "difficulty": 530,
+      "url": "https://atcoder.jp/contests/arc180/tasks/arc180_a",
+      "weights": {
+        "IMP": 15,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 45,
+        "INS": 40,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        }
+      ],
+      "one_line_summary": "交互文字列の極大区間に分解して数え上げるARC定番"
+    },
+    {
+      "problem_id": "arc181_a",
+      "contest_id": "arc181",
+      "title": "A - Sort Left and Right",
+      "difficulty": 640,
+      "url": "https://atcoder.jp/contests/arc181/tasks/arc181_a",
+      "weights": {
+        "IMP": 15,
+        "DS": 10,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 55,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "少数の操作回数で必ず達成できる性質を見抜く考察問題"
+    },
+    {
+      "problem_id": "agc040_a",
+      "contest_id": "agc040",
+      "title": "A - ><",
+      "difficulty": 465,
+      "url": "https://atcoder.jp/contests/agc040/tasks/agc040_a",
+      "weights": {
+        "IMP": 20,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 15,
+        "MTH": 15,
+        "INS": 35,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "左右からの制約の最大値を取るAGC入門の代表的良問"
+    },
+    {
+      "problem_id": "agc029_a",
+      "contest_id": "agc029",
+      "title": "A - Irreversible operation",
+      "difficulty": 438,
+      "url": "https://atcoder.jp/contests/agc029/tasks/agc029_a",
+      "weights": {
+        "IMP": 10,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 30,
+        "INS": 45,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "操作回数の上限が不変量（転倒数）に一致することを見抜く名問"
+    },
+    {
+      "problem_id": "agc033_a",
+      "contest_id": "agc033",
+      "title": "A - Darker and Darker",
+      "difficulty": 725,
+      "url": "https://atcoder.jp/contests/agc033/tasks/agc033_a",
+      "weights": {
+        "IMP": 20,
+        "DS": 15,
+        "GRP": 55,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 10,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "多始点BFSでグリッド全体の伝播ステップ数を求める基本良問"
+    },
+    {
+      "problem_id": "typical90_n",
+      "contest_id": "typical90",
+      "title": "014 - We Used to Sing a Song Together（★3）",
+      "difficulty": 410,
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_n",
+      "weights": {
+        "IMP": 15,
+        "DS": 10,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 15,
+        "INS": 45,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "ソートして貪欲にマッチングさせる証明の基本"
+    },
+    {
+      "problem_id": "typical90_r",
+      "contest_id": "typical90",
+      "title": "018 - Statue of Chokudai（★3）",
+      "difficulty": 510,
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_r",
+      "weights": {
+        "IMP": 25,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 65,
+        "INS": 10,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "三角関数と3次元座標から俯角を求める幾何計算"
+    },
+    {
+      "problem_id": "typical90_t",
+      "contest_id": "typical90",
+      "title": "020 - Log Inequality（★3）",
+      "difficulty": 460,
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_t",
+      "weights": {
+        "IMP": 20,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 60,
+        "INS": 20,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ],
+      "one_line_summary": "浮動小数点誤差を回避するため整数演算へ式変形する問題"
+    }
+  ],
+  "ac_problems": [
+    {
+      "problem_id": "abc296_c",
+      "contest_id": "abc296",
+      "title": "C - Gap Existence",
+      "difficulty": 162,
+      "epoch_second": 1794471723,
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 35,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 10,
+        "INS": 10,
+        "OPT": 30
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc369_b",
+      "contest_id": "abc369",
+      "title": "B - Piano 3",
+      "difficulty": 62,
+      "epoch_second": 1794470143,
+      "analyzed": true,
+      "weights": {
+        "IMP": 65,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 10,
+        "INS": 25,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc232_b",
+      "contest_id": "abc232",
+      "title": "B - Caesar Cipher",
+      "difficulty": 82,
+      "epoch_second": 1794469771,
+      "analyzed": true,
+      "weights": {
+        "IMP": 55,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 30,
+        "INS": 15,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc225_a",
+      "contest_id": "abc225",
+      "title": "A - Distinct Strings",
+      "difficulty": 12,
+      "epoch_second": 1794469103,
+      "analyzed": true,
+      "weights": {
+        "IMP": 40,
+        "DS": 20,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 40,
+        "INS": 0,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc483_b",
+      "contest_id": "abc483",
+      "title": "B. Flip Card Stack",
+      "difficulty": 75,
+      "epoch_second": 1794053357,
+      "analyzed": true,
+      "weights": {
+        "IMP": 60,
+        "DS": 15,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 25,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc483_a",
+      "contest_id": "abc483",
+      "title": "A. Double-Sided Printing",
+      "difficulty": 16,
+      "epoch_second": 1794052867,
+      "analyzed": true,
+      "weights": {
+        "IMP": 50,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 50,
+        "INS": 0,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc482_d",
+      "contest_id": "abc482",
+      "title": "D. Wannabe Zombie",
+      "difficulty": 766,
+      "epoch_second": 1793452011,
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 0,
+        "DP": 45,
+        "MTH": 0,
+        "INS": 25,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc482_b",
+      "contest_id": "abc482",
+      "title": "B. Blank Bingo",
+      "difficulty": 65,
+      "epoch_second": 1793448371,
+      "analyzed": true,
+      "weights": {
+        "IMP": 70,
+        "DS": 15,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 15,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc482_a",
+      "contest_id": "abc482",
+      "title": "A. Nigiri",
+      "difficulty": 12,
+      "epoch_second": 1793448146,
+      "analyzed": true,
+      "weights": {
+        "IMP": 70,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 30,
+        "INS": 0,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc481_c",
+      "contest_id": "abc481",
+      "title": "C. Bank Accounts",
+      "difficulty": 187,
+      "epoch_second": 1792843744,
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 35,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 10,
+        "INS": 15,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc481_b",
+      "contest_id": "abc481",
+      "title": "B. Polyline",
+      "difficulty": 78,
+      "epoch_second": 1792843504,
+      "analyzed": true,
+      "weights": {
+        "IMP": 55,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 35,
+        "INS": 10,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc481_a",
+      "contest_id": "abc481",
+      "title": "A. Digits of A+B",
+      "difficulty": 17,
+      "epoch_second": 1792843257,
+      "analyzed": true,
+      "weights": {
+        "IMP": 60,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 40,
+        "INS": 0,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc480_d",
+      "contest_id": "abc480",
+      "title": "D. Concatenation of Prefixes",
+      "difficulty": 864,
+      "epoch_second": 1792245298,
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 20,
+        "GRP": 0,
+        "DP": 30,
+        "MTH": 0,
+        "INS": 15,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc480_c",
+      "contest_id": "abc480",
+      "title": "C. Self-Stopping Shower",
+      "difficulty": 625,
+      "epoch_second": 1792242355,
+      "analyzed": true,
+      "weights": {
+        "IMP": 35,
+        "DS": 10,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 25,
+        "OPT": 30
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc480_a",
+      "contest_id": "abc480",
+      "title": "A. ADjacent",
+      "difficulty": 35,
+      "epoch_second": 1792238720,
+      "analyzed": true,
+      "weights": {
+        "IMP": 75,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 25,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc479_d",
+      "contest_id": "abc479",
+      "title": "D. Back and Forth Distance",
+      "difficulty": 563,
+      "epoch_second": 1791722516,
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 20,
+        "INS": 20,
+        "OPT": 30
+      },
+      "tags": [
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc479_c",
+      "contest_id": "abc479",
+      "title": "C. Bento Packing",
+      "difficulty": 276,
+      "epoch_second": 1791720618,
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 25,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 35,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "DS",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc479_b",
+      "contest_id": "abc479",
+      "title": "B. Longest Rainy Streak",
+      "difficulty": 33,
+      "epoch_second": 1791720241,
+      "analyzed": true,
+      "weights": {
+        "IMP": 70,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 15,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc479_a",
+      "contest_id": "abc479",
+      "title": "A. Odd Index Sum",
+      "difficulty": 12,
+      "epoch_second": 1791720093,
+      "analyzed": true,
+      "weights": {
+        "IMP": 80,
+        "DS": 0,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 20,
+        "INS": 0,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc125_c",
+      "contest_id": "abc125",
+      "title": "C - GCD on Blackboard",
+      "difficulty": 1197,
+      "epoch_second": 1791365082,
+      "analyzed": true,
+      "weights": {
+        "IMP": 10,
+        "DS": 15,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 30,
+        "INS": 15,
+        "OPT": 30
+      },
+      "tags": [
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "MTH",
+          "arrows": "↑↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc478_d",
+      "contest_id": "abc478",
+      "title": "D. Range Set Insertion Query",
+      "difficulty": 729,
+      "epoch_second": 1791031579,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc478_c",
+      "contest_id": "abc478",
+      "title": "C. Sort Subarray",
+      "difficulty": 426,
+      "epoch_second": 1791029959,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc478_b",
+      "contest_id": "abc478",
+      "title": "B. Topping",
+      "difficulty": 90,
+      "epoch_second": 1791029462,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc478_a",
+      "contest_id": "abc478",
+      "title": "B. Grapes",
+      "difficulty": 18,
+      "epoch_second": 1791029085,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "typical90_j",
+      "contest_id": "typical90",
+      "title": "010. Score Sum Queries（★2）",
+      "difficulty": 100,
+      "epoch_second": 1791021041,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "typical90_f",
+      "contest_id": "typical90",
+      "title": "006. Smallest Subsequence（★5）",
+      "difficulty": 100,
+      "epoch_second": 1790931293,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc477_d",
+      "contest_id": "abc477",
+      "title": "D. Masking Tape",
+      "difficulty": 946,
+      "epoch_second": 1790430992,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc477_c",
+      "contest_id": "abc477",
+      "title": "C. Range Search Query",
+      "difficulty": 456,
+      "epoch_second": 1790426116,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc477_b",
+      "contest_id": "abc477",
+      "title": "B. Standing Outliers",
+      "difficulty": 79,
+      "epoch_second": 1790424395,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc477_a",
+      "contest_id": "abc477",
+      "title": "A. Traffic Light",
+      "difficulty": 17,
+      "epoch_second": 1790424106,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc476_d",
+      "contest_id": "abc476",
+      "title": "G. Automat",
+      "difficulty": 860,
+      "epoch_second": 1789824762,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc476_c",
+      "contest_id": "abc476",
+      "title": "C. Third Largest Number",
+      "difficulty": 165,
+      "epoch_second": 1789823703,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc476_b",
+      "contest_id": "abc476",
+      "title": "B. Wild Card",
+      "difficulty": 28,
+      "epoch_second": 1789819469,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc476_a",
+      "contest_id": "abc476",
+      "title": "A. Appender",
+      "difficulty": 14,
+      "epoch_second": 1789819311,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc475_b",
+      "contest_id": "abc475",
+      "title": "B. Change",
+      "difficulty": 75,
+      "epoch_second": 1789219954,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc475_a",
+      "contest_id": "abc475",
+      "title": "A. mnclr",
+      "difficulty": 18,
+      "epoch_second": 1789214470,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "typical90_d",
+      "contest_id": "typical90",
+      "title": "004. Cross Sum（★2）",
+      "difficulty": 100,
+      "epoch_second": 1789197473,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "typical90_c",
+      "contest_id": "typical90",
+      "title": "003 - Longest Circular Road（★4）",
+      "difficulty": 100,
+      "epoch_second": 1789196466,
+      "analyzed": true,
+      "weights": {
+        "IMP": 10,
+        "DS": 10,
+        "GRP": 60,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 20,
+        "OPT": 0
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "abc474_e",
+      "contest_id": "abc474",
+      "title": "E. One Time Coupon",
+      "difficulty": 1153,
+      "epoch_second": 1788677200,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc474_d",
+      "contest_id": "abc474",
+      "title": "D. Outweigh",
+      "difficulty": 389,
+      "epoch_second": 1788670035,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc474_c",
+      "contest_id": "abc474",
+      "title": "F. Remove and Append",
+      "difficulty": 243,
+      "epoch_second": 1788669394,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc474_b",
+      "contest_id": "abc474",
+      "title": "B. Exit Order",
+      "difficulty": 65,
+      "epoch_second": 1788668338,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc474_a",
+      "contest_id": "abc474",
+      "title": "B. Not X",
+      "difficulty": 15,
+      "epoch_second": 1788667873,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc473_d",
+      "contest_id": "abc473",
+      "title": "G. Coefficient Stair",
+      "difficulty": 838,
+      "epoch_second": 1788007273,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc473_c",
+      "contest_id": "abc473",
+      "title": "E. Change Schools",
+      "difficulty": 120,
+      "epoch_second": 1788005805,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc473_b",
+      "contest_id": "abc473",
+      "title": "B. Old Maid",
+      "difficulty": 31,
+      "epoch_second": 1788005143,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc473_a",
+      "contest_id": "abc473",
+      "title": "A. Second Half Sum",
+      "difficulty": 13,
+      "epoch_second": 1788004960,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "ahc070_a",
+      "contest_id": "ahc070",
+      "title": "A. Ward the Village",
+      "difficulty": 3846,
+      "epoch_second": 1787987212,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "typical90_b",
+      "contest_id": "typical90",
+      "title": "002 - Encyclopedia of Parentheses（★3）",
+      "difficulty": 100,
+      "epoch_second": 1787626642,
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 10,
+        "GRP": 0,
+        "DP": 0,
+        "MTH": 0,
+        "INS": 20,
+        "OPT": 45
+      },
+      "tags": [
+        {
+          "param": "OPT",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
+      "problem_id": "typical90_a",
+      "contest_id": "typical90",
+      "title": "001. Yokan Party（★4）",
+      "difficulty": 100,
+      "epoch_second": 1787623271,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc472_c",
+      "contest_id": "abc472",
+      "title": "E. On a Diet",
+      "difficulty": 183,
+      "epoch_second": 1787401333,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc472_a",
+      "contest_id": "abc472",
+      "title": "A. A",
+      "difficulty": 14,
+      "epoch_second": 1787400522,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc472_b",
+      "contest_id": "abc472",
+      "title": "B. Break a Stick",
+      "difficulty": 40,
+      "epoch_second": 1787400423,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc471_d",
+      "contest_id": "abc471",
+      "title": "D. Chargers",
+      "difficulty": 570,
+      "epoch_second": 1786797895,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc471_c",
+      "contest_id": "abc471",
+      "title": "F. Cookies and Greedy Takahashi",
+      "difficulty": 301,
+      "epoch_second": 1786796984,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc471_b",
+      "contest_id": "abc471",
+      "title": "B. Survey Tabulation",
+      "difficulty": 48,
+      "epoch_second": 1786795809,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc471_a",
+      "contest_id": "abc471",
+      "title": "A. Nine or Nein",
+      "difficulty": 19,
+      "epoch_second": 1786795337,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc180_e",
+      "contest_id": "abc180",
+      "title": "E. Traveling Salesman among Aerial Cities",
+      "difficulty": 1256,
+      "epoch_second": 1785977832,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc467_b",
+      "contest_id": "abc467",
+      "title": "D. Keep the Change",
+      "difficulty": 39,
+      "epoch_second": 1784376296,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc467_a",
+      "contest_id": "abc467",
+      "title": "B. Obesity",
+      "difficulty": 76,
+      "epoch_second": 1784376131,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc465_c",
+      "contest_id": "abc465",
+      "title": "E. Reverse Permutation",
+      "difficulty": 443,
+      "epoch_second": 1783170207,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc465_b",
+      "contest_id": "abc465",
+      "title": "D. Parking 2",
+      "difficulty": 56,
+      "epoch_second": 1783168090,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc465_a",
+      "contest_id": "abc465",
+      "title": "A. Supermajority",
+      "difficulty": 12,
+      "epoch_second": 1783166474,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc463_c",
+      "contest_id": "abc463",
+      "title": "E. Tallest at the Moment",
+      "difficulty": 274,
+      "epoch_second": 1781959158,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc463_b",
+      "contest_id": "abc463",
+      "title": "B. Train Reservation",
+      "difficulty": 30,
+      "epoch_second": 1781957305,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc463_a",
+      "contest_id": "abc463",
+      "title": "A. 16:9",
+      "difficulty": 15,
+      "epoch_second": 1781956998,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc462_c",
+      "contest_id": "abc462",
+      "title": "E. Not Covered Points",
+      "difficulty": 298,
+      "epoch_second": 1781354699,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc462_b",
+      "contest_id": "abc462",
+      "title": "C. Gift",
+      "difficulty": 70,
+      "epoch_second": 1781352853,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc462_a",
+      "contest_id": "abc462",
+      "title": "A. Secret Numbers",
+      "difficulty": 13,
+      "epoch_second": 1781352311,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc461_d",
+      "contest_id": "abc461",
+      "title": "G. Count Subgrid Sum = K",
+      "difficulty": 914,
+      "epoch_second": 1780753038,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc461_c",
+      "contest_id": "abc461",
+      "title": "E. Variety",
+      "difficulty": 332,
+      "epoch_second": 1780748758,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc461_b",
+      "contest_id": "abc461",
+      "title": "D. The Honest Woodcutters",
+      "difficulty": 34,
+      "epoch_second": 1780747474,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc461_a",
+      "contest_id": "abc461",
+      "title": "B. Armor",
+      "difficulty": 12,
+      "epoch_second": 1780747284,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc460_c",
+      "contest_id": "abc460",
+      "title": "E. Sushi",
+      "difficulty": 192,
+      "epoch_second": 1780144830,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc460_b",
+      "contest_id": "abc460",
+      "title": "D. Two Rings",
+      "difficulty": 128,
+      "epoch_second": 1780144346,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc460_a",
+      "contest_id": "abc460",
+      "title": "B. Mod While Positive",
+      "difficulty": 15,
+      "epoch_second": 1780142559,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc458_c",
+      "contest_id": "abc458",
+      "title": "F. C Stands for Center",
+      "difficulty": 142,
+      "epoch_second": 1778933754,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc458_b",
+      "contest_id": "abc458",
+      "title": "D. Count Adjacent Cells",
+      "difficulty": 55,
+      "epoch_second": 1778933264,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc458_a",
+      "contest_id": "abc458",
+      "title": "A. Chompers",
+      "difficulty": 15,
+      "epoch_second": 1778932904,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc457_c",
+      "contest_id": "abc457",
+      "title": "F. Long Sequence",
+      "difficulty": 230,
+      "epoch_second": 1778329457,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc457_b",
+      "contest_id": "abc457",
+      "title": "D. Arrays",
+      "difficulty": 45,
+      "epoch_second": 1778328445,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc457_a",
+      "contest_id": "abc457",
+      "title": "B. Array",
+      "difficulty": 13,
+      "epoch_second": 1778328074,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc382_b",
+      "contest_id": "abc382",
+      "title": "D. Daily Cookie 2",
+      "difficulty": 24,
+      "epoch_second": 1777886229,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc341_b",
+      "contest_id": "abc341",
+      "title": "C. Foreign Exchange",
+      "difficulty": 163,
+      "epoch_second": 1777885944,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc325_a",
+      "contest_id": "abc325",
+      "title": "A. Takahashi san",
+      "difficulty": 8,
+      "epoch_second": 1777885350,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc456_d",
+      "contest_id": "abc456",
+      "title": "G. Not Adjacent 2",
+      "difficulty": 586,
+      "epoch_second": 1777728275,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc456_c",
+      "contest_id": "abc456",
+      "title": "E. Not Adjacent",
+      "difficulty": 233,
+      "epoch_second": 1777725049,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc456_b",
+      "contest_id": "abc456",
+      "title": "D. 456",
+      "difficulty": 96,
+      "epoch_second": 1777723802,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc456_a",
+      "contest_id": "abc456",
+      "title": "A. Dice",
+      "difficulty": 14,
+      "epoch_second": 1777723292,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc455_b",
+      "contest_id": "abc455",
+      "title": "B. Spiral Galaxy",
+      "difficulty": 187,
+      "epoch_second": 1777119195,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc455_a",
+      "contest_id": "abc455",
+      "title": "A. 455",
+      "difficulty": 14,
+      "epoch_second": 1777118481,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc454_c",
+      "contest_id": "abc454",
+      "title": "F. Straw Millionaire",
+      "difficulty": 274,
+      "epoch_second": 1776515165,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc454_b",
+      "contest_id": "abc454",
+      "title": "C. Mapping",
+      "difficulty": 45,
+      "epoch_second": 1776514060,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc454_a",
+      "contest_id": "abc454",
+      "title": "A. Closed interval",
+      "difficulty": 15,
+      "epoch_second": 1776513651,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc453_b",
+      "contest_id": "abc453",
+      "title": "D. Sensor Data Logging",
+      "difficulty": 49,
+      "epoch_second": 1775909443,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc453_a",
+      "contest_id": "abc453",
+      "title": "B. Trimo",
+      "difficulty": 28,
+      "epoch_second": 1775909028,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc452_b",
+      "contest_id": "abc452",
+      "title": "D. Draw Frame",
+      "difficulty": 25,
+      "epoch_second": 1775304388,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc452_a",
+      "contest_id": "abc452",
+      "title": "B. Gothec",
+      "difficulty": 12,
+      "epoch_second": 1775304204,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc451_c",
+      "contest_id": "abc451",
+      "title": "E. Understory",
+      "difficulty": 275,
+      "epoch_second": 1774702684,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc451_b",
+      "contest_id": "abc451",
+      "title": "C. Personnel Change",
+      "difficulty": 36,
+      "epoch_second": 1774699487,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc451_a",
+      "contest_id": "abc451",
+      "title": "A. illegal",
+      "difficulty": 11,
+      "epoch_second": 1774699273,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc450_d",
+      "contest_id": "abc450",
+      "title": "G. Minimize Range",
+      "difficulty": 647,
+      "epoch_second": 1774097733,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc450_b",
+      "contest_id": "abc450",
+      "title": "D. Split Ticketing",
+      "difficulty": 114,
+      "epoch_second": 1774096221,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc450_a",
+      "contest_id": "abc450",
+      "title": "B. 3,2,1,GO",
+      "difficulty": 14,
+      "epoch_second": 1774094470,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc449_b",
+      "contest_id": "abc449",
+      "title": "D. Deconstruct Chocolate",
+      "difficulty": 45,
+      "epoch_second": 1773831762,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc449_a",
+      "contest_id": "abc449",
+      "title": "B. π",
+      "difficulty": 30,
+      "epoch_second": 1773831500,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc448_c",
+      "contest_id": "abc448",
+      "title": "E. Except and Min",
+      "difficulty": 262,
+      "epoch_second": 1772887613,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc448_b",
+      "contest_id": "abc448",
+      "title": "D. Pepper Addiction",
+      "difficulty": 68,
+      "epoch_second": 1772885350,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc448_a",
+      "contest_id": "abc448",
+      "title": "B. chmin",
+      "difficulty": 13,
+      "epoch_second": 1772884915,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc447_b",
+      "contest_id": "abc447",
+      "title": "D. mpp",
+      "difficulty": 50,
+      "epoch_second": 1772280517,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc447_a",
+      "contest_id": "abc447",
+      "title": "A. Seats 2",
+      "difficulty": 15,
+      "epoch_second": 1772280122,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc446_d",
+      "contest_id": "abc446",
+      "title": "G. Max Straight",
+      "difficulty": 550,
+      "epoch_second": 1771679244,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc446_c",
+      "contest_id": "abc446",
+      "title": "F. Omelette Restaurant",
+      "difficulty": 384,
+      "epoch_second": 1771678146,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc446_b",
+      "contest_id": "abc446",
+      "title": "D. Greedy Draft",
+      "difficulty": 59,
+      "epoch_second": 1771675907,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc446_a",
+      "contest_id": "abc446",
+      "title": "B. Handmaid",
+      "difficulty": 14,
+      "epoch_second": 1771675572,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "awc0002_d",
+      "contest_id": "awc0002",
+      "title": "D. Keys and Treasure Boxes",
+      "difficulty": 100,
+      "epoch_second": 1770725116,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "awc0002_c",
+      "contest_id": "awc0002",
+      "title": "C. Observing Plant Growth",
+      "difficulty": 100,
+      "epoch_second": 1770724198,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "awc0002_b",
+      "contest_id": "awc0002",
+      "title": "B. Fruit Sorting",
+      "difficulty": 100,
+      "epoch_second": 1770723522,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "awc0002_a",
+      "contest_id": "awc0002",
+      "title": "A. Organizing the Bookshelf",
+      "difficulty": 100,
+      "epoch_second": 1770723089,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc444_d",
+      "contest_id": "abc444",
+      "title": "G. Many Repunit Sum",
+      "difficulty": 574,
+      "epoch_second": 1770468744,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc444_b",
+      "contest_id": "abc444",
+      "title": "D. Digit Sum",
+      "difficulty": 36,
+      "epoch_second": 1770466668,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc444_a",
+      "contest_id": "abc444",
+      "title": "A. Repdigit",
+      "difficulty": 9,
+      "epoch_second": 1770465742,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc443_c",
+      "contest_id": "abc443",
+      "title": "C. Chokutter Addiction",
+      "difficulty": 150,
+      "epoch_second": 1769862523,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc443_b",
+      "contest_id": "abc443",
+      "title": "C. Setsubun",
+      "difficulty": 28,
+      "epoch_second": 1769861063,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc443_a",
+      "contest_id": "abc443",
+      "title": "A. Append s",
+      "difficulty": 9,
+      "epoch_second": 1769860856,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc434_c",
+      "contest_id": "abc434",
+      "title": "F. Flapping Takahashi",
+      "difficulty": 374,
+      "epoch_second": 1769406956,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc437_c",
+      "contest_id": "abc437",
+      "title": "F. Reindeer and Sleigh 2",
+      "difficulty": 489,
+      "epoch_second": 1769404397,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc420_b",
+      "contest_id": "abc420",
+      "title": "C. Most Minority",
+      "difficulty": 74,
+      "epoch_second": 1769396556,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc420_a",
+      "contest_id": "abc420",
+      "title": "B. What month is it?",
+      "difficulty": 10,
+      "epoch_second": 1769392210,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc421_a",
+      "contest_id": "abc421",
+      "title": "A. Misdelivery",
+      "difficulty": 14,
+      "epoch_second": 1769392058,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc422_a",
+      "contest_id": "abc422",
+      "title": "B. Stage Clear",
+      "difficulty": 100,
+      "epoch_second": 1769391875,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc442_d",
+      "contest_id": "abc442",
+      "title": "G. Swap and Range Sum",
+      "difficulty": 293,
+      "epoch_second": 1769258185,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc442_c",
+      "contest_id": "abc442",
+      "title": "F. Peer Review",
+      "difficulty": 174,
+      "epoch_second": 1769257052,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc442_b",
+      "contest_id": "abc442",
+      "title": "D. Music Player",
+      "difficulty": 27,
+      "epoch_second": 1769256414,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc442_a",
+      "contest_id": "abc442",
+      "title": "A. Count .",
+      "difficulty": 10,
+      "epoch_second": 1769256117,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc441_b",
+      "contest_id": "abc441",
+      "title": "C. Two Languages",
+      "difficulty": 70,
+      "epoch_second": 1768653106,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc441_a",
+      "contest_id": "abc441",
+      "title": "A. Black Square",
+      "difficulty": 30,
+      "epoch_second": 1768651441,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc440_b",
+      "contest_id": "abc440",
+      "title": "D. Trifecta",
+      "difficulty": 27,
+      "epoch_second": 1768046718,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc440_a",
+      "contest_id": "abc440",
+      "title": "B. Octave",
+      "difficulty": 12,
+      "epoch_second": 1768046476,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc439_d",
+      "contest_id": "abc439",
+      "title": "G. Kadomatsu Subsequence",
+      "difficulty": 627,
+      "epoch_second": 1767834449,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc439_c",
+      "contest_id": "abc439",
+      "title": "F. 2026",
+      "difficulty": 328,
+      "epoch_second": 1767444366,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc439_b",
+      "contest_id": "abc439",
+      "title": "C. Happy Number",
+      "difficulty": 46,
+      "epoch_second": 1767442342,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc439_a",
+      "contest_id": "abc439",
+      "title": "B. 2^n - 2*n",
+      "difficulty": 8,
+      "epoch_second": 1767441663,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc438_d",
+      "contest_id": "abc438",
+      "title": "G. Tail of Snake ",
+      "difficulty": 652,
+      "epoch_second": 1766910496,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc438_c",
+      "contest_id": "abc438",
+      "title": "F. 1D puyopuyo",
+      "difficulty": 368,
+      "epoch_second": 1766839315,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc438_b",
+      "contest_id": "abc438",
+      "title": "D. Substring 2",
+      "difficulty": 92,
+      "epoch_second": 1766838367,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc438_a",
+      "contest_id": "abc438",
+      "title": "B. First Contest of the Year",
+      "difficulty": 29,
+      "epoch_second": 1766837193,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc437_d",
+      "contest_id": "abc437",
+      "title": "G. Sum of Differences",
+      "difficulty": 509,
+      "epoch_second": 1766234882,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc437_b",
+      "contest_id": "abc437",
+      "title": "D. Tombola",
+      "difficulty": 34,
+      "epoch_second": 1766232789,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc437_a",
+      "contest_id": "abc437",
+      "title": "A. Feet",
+      "difficulty": 7,
+      "epoch_second": 1766232059,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc436_e",
+      "contest_id": "abc436",
+      "title": "H. Minimum Swap",
+      "difficulty": 958,
+      "epoch_second": 1765687276,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc436_c",
+      "contest_id": "abc436",
+      "title": "F. 2x2 Placing",
+      "difficulty": 248,
+      "epoch_second": 1765631189,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc436_b",
+      "contest_id": "abc436",
+      "title": "D. Magic Square",
+      "difficulty": 56,
+      "epoch_second": 1765628160,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc436_a",
+      "contest_id": "abc436",
+      "title": "A. o-padding",
+      "difficulty": 7,
+      "epoch_second": 1765627316,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc435_c",
+      "contest_id": "abc435",
+      "title": "F. Domino",
+      "difficulty": 151,
+      "epoch_second": 1765023629,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc435_b",
+      "contest_id": "abc435",
+      "title": "C. No-Divisible Range",
+      "difficulty": 49,
+      "epoch_second": 1765023285,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc435_a",
+      "contest_id": "abc435",
+      "title": "B. Triangular Number",
+      "difficulty": 6,
+      "epoch_second": 1765022545,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc434_b",
+      "contest_id": "abc434",
+      "title": "D. Bird Watching",
+      "difficulty": 28,
+      "epoch_second": 1764418785,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc434_a",
+      "contest_id": "abc434",
+      "title": "B. Balloon Trip",
+      "difficulty": 7,
+      "epoch_second": 1764418082,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc433_c",
+      "contest_id": "abc433",
+      "title": "F. 1122 Substring 2",
+      "difficulty": 259,
+      "epoch_second": 1763815259,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc433_b",
+      "contest_id": "abc433",
+      "title": "C. Nearest Taller",
+      "difficulty": 47,
+      "epoch_second": 1763813355,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc433_a",
+      "contest_id": "abc433",
+      "title": "A. Happy Birthday! 4",
+      "difficulty": 43,
+      "epoch_second": 1763813090,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc407_c",
+      "contest_id": "abc407",
+      "title": "F. Security 2",
+      "difficulty": 295,
+      "epoch_second": 1763618370,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc432_b",
+      "contest_id": "abc432",
+      "title": "D. Permute to Minimize",
+      "difficulty": 48,
+      "epoch_second": 1763208894,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc432_a",
+      "contest_id": "abc432",
+      "title": "A. Permute to Maximize",
+      "difficulty": 12,
+      "epoch_second": 1763208189,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc420_c",
+      "contest_id": "abc420",
+      "title": "E. Sum of Min Query",
+      "difficulty": 169,
+      "epoch_second": 1762756316,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc431_c",
+      "contest_id": "abc431",
+      "title": "F. Robot Factory",
+      "difficulty": 172,
+      "epoch_second": 1762604941,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc431_b",
+      "contest_id": "abc431",
+      "title": "D. Robot Weight",
+      "difficulty": 36,
+      "epoch_second": 1762603874,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc431_a",
+      "contest_id": "abc431",
+      "title": "A. Robot Balance",
+      "difficulty": 10,
+      "epoch_second": 1762603316,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc421_b",
+      "contest_id": "abc421",
+      "title": "D. Fibonacci Reversed",
+      "difficulty": 55,
+      "epoch_second": 1762259220,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc430_b",
+      "contest_id": "abc430",
+      "title": "D. Count Subgrid",
+      "difficulty": 141,
+      "epoch_second": 1762000030,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc430_a",
+      "contest_id": "abc430",
+      "title": "A. Candy Cookie Law",
+      "difficulty": 18,
+      "epoch_second": 1761998770,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc425_c",
+      "contest_id": "abc425",
+      "title": "E. Rotate and Sum Query",
+      "difficulty": 315,
+      "epoch_second": 1761967127,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc422_b",
+      "contest_id": "abc422",
+      "title": "D. Looped Rope",
+      "difficulty": 100,
+      "epoch_second": 1761954948,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc410_b",
+      "contest_id": "abc410",
+      "title": "C. Reverse Proxy",
+      "difficulty": 57,
+      "epoch_second": 1761737486,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc284_a",
+      "contest_id": "abc284",
+      "title": "A. Sequence of Strings",
+      "difficulty": 10,
+      "epoch_second": 1761736633,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc352_a",
+      "contest_id": "abc352",
+      "title": "B. AtCoder Line",
+      "difficulty": 14,
+      "epoch_second": 1761736523,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc425_a",
+      "contest_id": "abc425",
+      "title": "A. Sigma Cubes",
+      "difficulty": 13,
+      "epoch_second": 1761733828,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc425_b",
+      "contest_id": "abc425",
+      "title": "D. Find Permutation 2",
+      "difficulty": 82,
+      "epoch_second": 1761662163,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc420_d",
+      "contest_id": "abc420",
+      "title": "G. Toggle Maze",
+      "difficulty": 699,
+      "epoch_second": 1761531657,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "arc206_a",
+      "contest_id": "arc206",
+      "title": "A. Range Replace",
+      "difficulty": 554,
+      "epoch_second": 1761524857,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc429_c",
+      "contest_id": "abc429",
+      "title": "E. Odd One Subsequence",
+      "difficulty": 201,
+      "epoch_second": 1761395871,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc429_a",
+      "contest_id": "abc429",
+      "title": "B. Too Many Requests",
+      "difficulty": 10,
+      "epoch_second": 1761394116,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc429_b",
+      "contest_id": "abc429",
+      "title": "D. N - 1",
+      "difficulty": 24,
+      "epoch_second": 1761394062,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc408_c",
+      "contest_id": "abc408",
+      "title": "E. Not All Covered",
+      "difficulty": 223,
+      "epoch_second": 1761392460,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc384_b",
+      "contest_id": "abc384",
+      "title": "D. ARC Division",
+      "difficulty": 30,
+      "epoch_second": 1761219379,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc385_b",
+      "contest_id": "abc385",
+      "title": "C. Santa Claus 1",
+      "difficulty": 77,
+      "epoch_second": 1761218454,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc386_b",
+      "contest_id": "abc386",
+      "title": "C. Calculator",
+      "difficulty": 42,
+      "epoch_second": 1761217513,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc387_b",
+      "contest_id": "abc387",
+      "title": "C. 9x9 Sum",
+      "difficulty": 21,
+      "epoch_second": 1761216835,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc388_b",
+      "contest_id": "abc388",
+      "title": "C. Heavy Snake",
+      "difficulty": 30,
+      "epoch_second": 1761216598,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc410_c",
+      "contest_id": "abc410",
+      "title": "F. Rotatable Array",
+      "difficulty": 230,
+      "epoch_second": 1761061589,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc394_c",
+      "contest_id": "abc394",
+      "title": "F. Debug",
+      "difficulty": 161,
+      "epoch_second": 1760970593,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc392_c",
+      "contest_id": "abc392",
+      "title": "E. Bib",
+      "difficulty": 132,
+      "epoch_second": 1760963660,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc389_b",
+      "contest_id": "abc389",
+      "title": "C. tcaF",
+      "difficulty": 25,
+      "epoch_second": 1760942351,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc428_c",
+      "contest_id": "abc428",
+      "title": "F. Brackets Stack Query",
+      "difficulty": 483,
+      "epoch_second": 1760795886,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc428_b",
+      "contest_id": "abc428",
+      "title": "C. Most Frequent Substrings",
+      "difficulty": 118,
+      "epoch_second": 1760794347,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc428_a",
+      "contest_id": "abc428",
+      "title": "B. Grandma's Footsteps",
+      "difficulty": 23,
+      "epoch_second": 1760790932,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc390_a",
+      "contest_id": "abc390",
+      "title": "B. 12435",
+      "difficulty": 43,
+      "epoch_second": 1760754642,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc391_a",
+      "contest_id": "abc391",
+      "title": "B. Lucky Direction",
+      "difficulty": 10,
+      "epoch_second": 1760753676,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    },
+    {
+      "problem_id": "abc427_b",
+      "contest_id": "abc427",
+      "title": "C. Sum of Digits Sequence",
+      "difficulty": 54,
+      "epoch_second": 1760184952,
+      "analyzed": false,
+      "weights": null,
+      "tags": []
+    }
+  ]
+}

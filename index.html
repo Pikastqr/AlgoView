@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>AlgoView — Pikapurin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 背景アンビエント装飾 -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+
+  <!-- トースト通知エリア -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-area">
+        <div class="brand-logo" aria-hidden="true">
+          <svg viewBox="0 0 36 36" width="28" height="28" fill="none">
+            <polygon points="18,2 31,9 34,23 25,34 11,34 2,23 5,9" stroke="url(#heptGrad)" stroke-width="2.2" fill="rgba(168, 85, 247, 0.14)" />
+            <polygon points="18,9 26,13 28,22 22,28 14,28 8,22 10,13" stroke="rgba(192, 132, 252, 0.5)" stroke-width="1.2" fill="rgba(139, 92, 246, 0.12)" />
+            <circle cx="18" cy="18" r="2.5" fill="#c084fc" />
+            <defs>
+              <linearGradient id="heptGrad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#c084fc" />
+                <stop offset="50%" stop-color="#a855f7" />
+                <stop offset="100%" stop-color="#6366f1" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h1 class="brand-title">AlgoView</h1>
+      </div>
+
+      <div class="header-actions">
+        <a id="user-profile-link" href="https://atcoder.jp/users/Pikapurin" target="_blank" rel="noopener noreferrer" class="user-pill" title="AtCoder Profile">
+          <span class="rating-circle rating-brown" id="header-rating-circle" aria-hidden="true"></span>
+          <span class="user-name" id="header-user-name">Pikapurin</span>
+        </a>
+        <button type="button" id="btn-sync-api" class="btn btn-secondary">
+          AC同期
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- 今週の精進スコア 4カード -->
+    <section class="score-cards-grid" aria-label="今週の精進スコア">
+      <article class="score-card glass-panel">
+        <div class="score-card-header">
+          <span class="score-card-label">WEEKLY AC</span>
+        </div>
+        <div class="score-card-value-row">
+          <span id="stat-weekly-ac" class="score-card-value">9</span>
+          <span class="score-card-unit">AC</span>
+        </div>
+        <p id="stat-total-ac-sub" class="score-card-sub">Total: 184 AC</p>
+      </article>
+
+      <article class="score-card glass-panel">
+        <div class="score-card-header">
+          <span class="score-card-label">WEEKLY POINTS</span>
+        </div>
+        <div class="score-card-value-row">
+          <span id="stat-weekly-points" class="score-card-value">5,420</span>
+          <span class="score-card-unit">pt</span>
+        </div>
+        <p class="score-card-sub">Difficulty Sum</p>
+      </article>
+
+      <article class="score-card glass-panel">
+        <div class="score-card-header">
+          <span class="score-card-label">VS LAST WEEK</span>
+        </div>
+        <div class="score-card-value-row">
+          <span id="stat-weekly-diff" class="score-card-value diff-positive">+1,240</span>
+          <span class="score-card-unit">pt</span>
+        </div>
+        <p id="stat-last-week-sub" class="score-card-sub">Last: 4,180 pt</p>
+      </article>
+
+      <article class="score-card glass-panel">
+        <div class="score-card-header">
+          <span class="score-card-label">STREAK</span>
+        </div>
+        <div class="score-card-value-row">
+          <span id="stat-streak-days" class="score-card-value streak-highlight">6</span>
+          <span class="score-card-unit">Days</span>
+        </div>
+        <p id="stat-streak-sub" class="score-card-sub">Continuous AC</p>
+      </article>
+    </section>
+
+    <!-- メイン2カラム：左＝7角形レーダーチャート、右＝日替わりピックアップ5問 -->
+    <div class="dashboard-main-grid">
+      <!-- 左カラム：7大パラメータ -->
+      <section class="radar-section glass-panel" aria-labelledby="radar-heading">
+        <div class="section-header">
+          <h2 id="radar-heading" class="section-title">PARAMETERS</h2>
+          <div class="overall-algo-power">
+            <span class="overall-label">OVERALL</span>
+            <span id="overall-power-value" class="overall-value">820</span>
+          </div>
+        </div>
+
+        <!-- 正七角形 SVG 描画領域（ベクター高精細描画） -->
+        <div class="radar-canvas-container">
+          <svg id="heptagon-radar-svg" viewBox="0 0 520 450" aria-label="7大パラメータ正七角形レーダーチャート"></svg>
+        </div>
+
+        <!-- 7大パラメータ詳細リスト -->
+        <div id="param-breakdown-list" class="param-breakdown-list" aria-label="7大パラメータ別スコア内訳"></div>
+      </section>
+
+      <!-- 右カラム：日替わりピックアップ5問 -->
+      <section class="pickup-section glass-panel" aria-labelledby="pickup-heading">
+        <div class="section-header">
+          <h2 id="pickup-heading" class="section-title">DAILY PICKUP</h2>
+          <span id="pickup-date-label" class="pickup-date-label"></span>
+        </div>
+
+        <!-- おすすめ問題カード5問が並ぶコンテナ -->
+        <div id="pickup-cards-list" class="pickup-cards-list" role="list"></div>
+
+        <!-- 補充プール＆本日の完了ステータスフッター -->
+        <div class="pickup-footer">
+          <div class="pickup-progress-info">
+            <span class="pickup-done-label">完了: <strong id="today-checked-count">0</strong> 問</span>
+            <span class="pickup-pool-dots" id="pickup-pool-dots" aria-hidden="true"></span>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 下段2カラム：週次推移複合チャート ＆ 直近の解析済みAC履歴 -->
+    <div class="dashboard-bottom-grid">
+      <!-- 過去10週間の週間精進ポイント（折れ線）＆週間AC数（棒グラフ） -->
+      <section class="weekly-chart-section glass-panel" aria-labelledby="weekly-chart-heading">
+        <div class="section-header">
+          <h2 id="weekly-chart-heading" class="section-title">WEEKLY TREND</h2>
+          <div class="chart-legend-inline">
+            <span class="legend-item"><span class="legend-box bar-color"></span>AC数</span>
+            <span class="legend-item"><span class="legend-line line-color"></span>Points</span>
+          </div>
+        </div>
+        <div class="weekly-canvas-container">
+          <svg id="weekly-trend-svg" viewBox="0 0 680 290" aria-label="過去10週間の精進推移グラフ"></svg>
+        </div>
+      </section>
+
+      <!-- Gemini解析済み 直近AC問題ログ -->
+      <section class="recent-ac-section glass-panel" aria-labelledby="recent-ac-heading">
+        <div class="section-header">
+          <h2 id="recent-ac-heading" class="section-title">RECENT AC</h2>
+        </div>
+        <div id="recent-ac-list" class="recent-ac-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>AlgoView — Pikapurin</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
