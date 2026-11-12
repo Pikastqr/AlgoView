@@ -70,10 +70,10 @@ const RATING_RINGS = [
 ];
 
 const STORAGE_KEYS = {
-  CHECKED_PROBLEMS: 'algoview_checked_problems_v3',
-  EARNED_BONUS_MAP: 'algoview_earned_bonus_map_v3',
-  LAST_PICKUP_DATE: 'algoview_last_pickup_date_v3',
-  AUTO_PRAISED: 'algoview_auto_praised_v3',
+  CHECKED_PROBLEMS: 'algoview_checked_problems_v4',
+  EARNED_BONUS_MAP: 'algoview_earned_bonus_map_v4',
+  LAST_PICKUP_DATE: 'algoview_last_pickup_date_v4',
+  AUTO_PRAISED: 'algoview_auto_praised_v4',
 };
 
 const LEGACY_KEYS_TO_CLEAR = [
@@ -87,6 +87,10 @@ const LEGACY_KEYS_TO_CLEAR = [
   'algoview_earned_bonus_map_v2',
   'algoview_last_pickup_date_v2',
   'algoview_auto_praised_v2',
+  'algoview_checked_problems_v3',
+  'algoview_earned_bonus_map_v3',
+  'algoview_last_pickup_date_v3',
+  'algoview_auto_praised_v3',
 ];
 
 // 初期値設定時点（既存の325 AC完了時点）の基準タイムスタンプ
@@ -261,6 +265,7 @@ const state = {
   earnedBonusMap: {}, // 獲得済みパラメータボーナス辞書（日付が変わっても永続保持）
   autoPraisedIds: new Set(),
   snapshotAcIds: new Set(),
+  snapshotEpochSecond: BASELINE_EPOCH_SECOND,
   liveAcSet: new Set(),
   lastMaxEpochSecond: 0,
   catalogLoaded: false,
@@ -600,9 +605,34 @@ function renderParameterBreakdownList(breakdown) {
 // ============================================================================
 // 9. 今週の精進スコア ＆ 過去10週間複合グラフ描画
 // ============================================================================
+function getThisWeekStartEpochJst() {
+  const wsHistory = state.userSummary?.weekly_stats?.weekly_history;
+  const lastEntry =
+    Array.isArray(wsHistory) && wsHistory.length ? wsHistory[wsHistory.length - 1] : null;
+  if (lastEntry?.start_date) {
+    const parsed = Date.parse(`${lastEntry.start_date}T00:00:00+09:00`);
+    if (!Number.isNaN(parsed)) {
+      return Math.floor(parsed / 1000);
+    }
+  }
+  const jstMs = Date.now() + 9 * 60 * 60 * 1000;
+  const jstDate = new Date(jstMs);
+  const day = jstDate.getUTCDay();
+  const diffToMon = (day + 6) % 7;
+  const mondayJstMs = Date.UTC(
+    jstDate.getUTCFullYear(),
+    jstDate.getUTCMonth(),
+    jstDate.getUTCDate() - diffToMon
+  );
+  return Math.floor((mondayJstMs - 9 * 60 * 60 * 1000) / 1000);
+}
+
 function renderWeeklyStatsAndChart() {
   const ws = state.userSummary?.weekly_stats;
   if (!ws) return;
+
+  const thisWeekStartEpoch = getThisWeekStartEpochJst();
+  const snapshotEpoch = Math.max(BASELINE_EPOCH_SECOND, state.snapshotEpochSecond || 0);
 
   let checkedCount = 0;
   let checkedPoints = 0;
@@ -610,6 +640,7 @@ function renderWeeklyStatsAndChart() {
 
   for (const [pid, bonusItem] of Object.entries(state.earnedBonusMap)) {
     if (state.snapshotAcIds.has(pid)) continue;
+    if (bonusItem.epoch_second && bonusItem.epoch_second < thisWeekStartEpoch) continue;
     countedIds.add(pid);
     checkedCount += 1;
     checkedPoints += bonusItem.difficulty || 600;
@@ -617,7 +648,9 @@ function renderWeeklyStatsAndChart() {
 
   for (const prob of state.userSummary?.ac_problems || []) {
     const pid = prob.problem_id;
+    const ep = prob.epoch_second || 0;
     if (!pid || state.snapshotAcIds.has(pid) || countedIds.has(pid)) continue;
+    if (ep <= snapshotEpoch || ep < thisWeekStartEpoch) continue;
     countedIds.add(pid);
     checkedCount += 1;
     checkedPoints += prob.difficulty || 0;
@@ -970,6 +1003,7 @@ async function handleCheckProblem(prob, cardElement, isAutoDetected = false) {
   state.earnedBonusMap[prob.problem_id] = {
     difficulty: prob.difficulty || 600,
     weights: prob.weights || {},
+    epoch_second: Math.floor(Date.now() / 1000),
   };
   saveCheckedProblems();
 
@@ -1240,7 +1274,12 @@ async function runLiveAtCoderSync() {
       }
     }
 
-    if (newlyDiscoveredSubs.length > 0 && state.userSummary) {
+    // ベースライン/スナップショット以降に新規ACした問題のみ「新規AC」として履歴・今週・レーダーへ反映する
+    const recentNewSubs = newlyDiscoveredSubs.filter(
+      (sub) => (sub.epoch_second || 0) > state.snapshotEpochSecond
+    );
+
+    if (recentNewSubs.length > 0 && state.userSummary) {
       const poolById = new Map();
       for (const p of state.dailyPool) poolById.set(p.problem_id, p);
       for (const p of state.userSummary.recommendations_pool || []) poolById.set(p.problem_id, p);
@@ -1249,7 +1288,7 @@ async function runLiveAtCoderSync() {
         (state.userSummary.ac_problems || []).map((p) => [p.problem_id, p])
       );
 
-      for (const sub of newlyDiscoveredSubs) {
+      for (const sub of recentNewSubs) {
         const pid = sub.problem_id;
         if (existingAcMap.has(pid)) continue;
         const meta = state.problemMetaById[pid] || poolById.get(pid) || state.analyzedProblems[pid] || {};
@@ -1276,7 +1315,6 @@ async function runLiveAtCoderSync() {
         (a, b) => (b.epoch_second || 0) - (a.epoch_second || 0)
       );
       state.userSummary.all_ac_ids = Array.from(state.liveAcSet);
-      state.userSummary.latest_submission_epoch = state.lastMaxEpochSecond;
 
       buildDailyPool(
         state.userSummary.recommendations_pool || [],
@@ -1287,20 +1325,21 @@ async function runLiveAtCoderSync() {
       renderRecentAcHistory();
       renderWeeklyStatsAndChart();
       updateRadarTargetsAndAnimate();
-    } else if (catalogJustLoaded) {
+    } else if (catalogJustLoaded || newlyDiscoveredSubs.length > 0) {
       buildDailyPool(
         state.userSummary?.recommendations_pool || [],
         state.catalogProblems,
         state.catalogModels
       );
       renderInitialPickupCards();
+      renderWeeklyStatsAndChart();
     }
 
     if (state.syncShowToast && newlyAutoDetected === 0) {
       const totalDisplay = state.liveAcSet.size || state.userSummary?.total_ac_count || 0;
       const msg =
-        newlyDiscoveredSubs.length > 0
-          ? `同期完了: 新規AC ${newlyDiscoveredSubs.length}問を反映 (累計 ${totalDisplay}問)`
+        recentNewSubs.length > 0
+          ? `同期完了: 新規AC ${recentNewSubs.length}問を反映 (累計 ${totalDisplay}問)`
           : `同期完了: 最新の状態です (実AC: ${totalDisplay}問)`;
       showToast(msg);
     }
@@ -1338,8 +1377,8 @@ async function initApp() {
 
   try {
     const [summaryResp, analyzedResp] = await Promise.all([
-      fetch('data/user_summary.json'),
-      fetch('data/analyzed_problems.json'),
+      fetch('data/user_summary.json', { cache: 'no-store' }),
+      fetch('data/analyzed_problems.json', { cache: 'no-store' }),
     ]);
     state.userSummary = await summaryResp.json();
     state.analyzedProblems = await analyzedResp.json();
@@ -1349,6 +1388,10 @@ async function initApp() {
       ...(state.userSummary?.ac_problems || []).map((p) => p.problem_id),
     ];
     state.snapshotAcIds = new Set(initialAcIds);
+    state.snapshotEpochSecond = Math.max(
+      BASELINE_EPOCH_SECOND,
+      state.userSummary?.latest_submission_epoch || 0
+    );
     state.liveAcSet = new Set(initialAcIds);
     if (state.userSummary?.latest_submission_epoch) {
       state.lastMaxEpochSecond = Math.max(
