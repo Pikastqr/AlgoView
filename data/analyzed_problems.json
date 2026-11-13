@@ -2187,5 +2187,410 @@
     ],
     "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-13T03:14:05.205171+00:00"
+  },
+  "arc114_a": {
+    "problem_id": "arc114_a",
+    "title": "A. Not coprime",
+    "contest_id": "arc114",
+    "difficulty": 750,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:19.743718+00:00"
+  },
+  "abc477_a": {
+    "problem_id": "abc477_a",
+    "title": "A. Traffic Light",
+    "contest_id": "abc477",
+    "difficulty": 17,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:19.743759+00:00"
+  },
+  "abc476_d": {
+    "problem_id": "abc476_d",
+    "title": "G. Automat",
+    "contest_id": "adt_all_20261023_2",
+    "difficulty": 860,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:19.743806+00:00"
+  },
+  "abc476_c": {
+    "problem_id": "abc476_c",
+    "title": "C. Third Largest Number",
+    "contest_id": "abc476",
+    "difficulty": 165,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:19.743846+00:00"
+  },
+  "abc476_b": {
+    "problem_id": "abc476_b",
+    "title": "B. Wild Card",
+    "contest_id": "abc476",
+    "difficulty": 28,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:19.743869+00:00"
+  },
+  "abc476_a": {
+    "problem_id": "abc476_a",
+    "title": "A. Appender",
+    "contest_id": "adt_easy_20261029_1",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:23.834055+00:00"
+  },
+  "abc475_b": {
+    "problem_id": "abc475_b",
+    "title": "B. Change",
+    "contest_id": "abc475",
+    "difficulty": 75,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:23.834105+00:00"
+  },
+  "abc475_a": {
+    "problem_id": "abc475_a",
+    "title": "A. mnclr",
+    "contest_id": "abc475",
+    "difficulty": 18,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:23.834130+00:00"
+  },
+  "typical90_d": {
+    "problem_id": "typical90_d",
+    "title": "004. Cross Sum（★2）",
+    "contest_id": "typical90",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:23.834168+00:00"
+  },
+  "abc474_e": {
+    "problem_id": "abc474_e",
+    "title": "E. One Time Coupon",
+    "contest_id": "abc474",
+    "difficulty": 1153,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:23.834196+00:00"
+  },
+  "abc151_e": {
+    "problem_id": "abc151_e",
+    "title": "E. Max-Min Sums",
+    "contest_id": "abc151",
+    "difficulty": 1344,
+    "weights": {
+      "IMP": 8,
+      "DS": 23,
+      "GRP": 5,
+      "DP": 18,
+      "MTH": 24,
+      "INS": 11,
+      "OPT": 11
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と数学・数え上げの総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:27.924814+00:00"
+  },
+  "abc126_d": {
+    "problem_id": "abc126_d",
+    "title": "D. Even Relation",
+    "contest_id": "abc126",
+    "difficulty": 1279,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 34,
+      "DP": 7,
+      "MTH": 7,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:27.924860+00:00"
+  },
+  "agc020_b": {
+    "problem_id": "agc020_b",
+    "title": "B. Ice Rink Game",
+    "contest_id": "agc020",
+    "difficulty": 1404,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:27.924891+00:00"
+  },
+  "abc483_c": {
+    "problem_id": "abc483_c",
+    "title": "C. Second Choice Election",
+    "contest_id": "abc483",
+    "difficulty": 770,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:27.924922+00:00"
+  },
+  "abc020_b": {
+    "problem_id": "abc020_b",
+    "title": "B. 足し算",
+    "contest_id": "abc020",
+    "difficulty": 220,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 34,
+      "DP": 7,
+      "MTH": 7,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T15:11:27.924940+00:00"
   }
 }
