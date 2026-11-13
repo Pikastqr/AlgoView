@@ -1782,5 +1782,410 @@
       }
     ],
     "one_line_summary": "浮動小数点誤差を回避するため整数演算へ式変形する問題"
+  },
+  "abc347_c": {
+    "problem_id": "abc347_c",
+    "title": "F. Ideal Holidays",
+    "contest_id": "adt_all_20261112_1",
+    "difficulty": 926,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:13:56.970898+00:00"
+  },
+  "abc478_d": {
+    "problem_id": "abc478_d",
+    "title": "D. Range Set Insertion Query",
+    "contest_id": "abc478",
+    "difficulty": 729,
+    "weights": {
+      "IMP": 9,
+      "DS": 28,
+      "GRP": 6,
+      "DP": 6,
+      "MTH": 27,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と数学・数え上げの総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:13:56.970950+00:00"
+  },
+  "abc478_c": {
+    "problem_id": "abc478_c",
+    "title": "C. Sort Subarray",
+    "contest_id": "abc478",
+    "difficulty": 426,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:13:56.970974+00:00"
+  },
+  "abc478_b": {
+    "problem_id": "abc478_b",
+    "title": "B. Topping",
+    "contest_id": "abc478",
+    "difficulty": 90,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:13:56.970997+00:00"
+  },
+  "abc478_a": {
+    "problem_id": "abc478_a",
+    "title": "B. Grapes",
+    "contest_id": "adt_easy_20261110_1",
+    "difficulty": 18,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:13:56.971011+00:00"
+  },
+  "typical90_j": {
+    "problem_id": "typical90_j",
+    "title": "010. Score Sum Queries（★2）",
+    "contest_id": "typical90",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:01.087038+00:00"
+  },
+  "typical90_f": {
+    "problem_id": "typical90_f",
+    "title": "006. Smallest Subsequence（★5）",
+    "contest_id": "typical90",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 19,
+      "DS": 21,
+      "GRP": 21,
+      "DP": 16,
+      "MTH": 5,
+      "INS": 9,
+      "OPT": 9
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とグラフ・木の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:01.087067+00:00"
+  },
+  "abc477_d": {
+    "problem_id": "abc477_d",
+    "title": "D. Masking Tape",
+    "contest_id": "abc477",
+    "difficulty": 946,
+    "weights": {
+      "IMP": 26,
+      "DS": 30,
+      "GRP": 6,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:01.087092+00:00"
+  },
+  "abc477_c": {
+    "problem_id": "abc477_c",
+    "title": "C. Range Search Query",
+    "contest_id": "abc477",
+    "difficulty": 456,
+    "weights": {
+      "IMP": 26,
+      "DS": 30,
+      "GRP": 6,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:01.087114+00:00"
+  },
+  "abc477_b": {
+    "problem_id": "abc477_b",
+    "title": "B. Standing Outliers",
+    "contest_id": "abc477",
+    "difficulty": 79,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:01.087130+00:00"
+  },
+  "agc016_a": {
+    "problem_id": "agc016_a",
+    "title": "A. Shrinking",
+    "contest_id": "agc016",
+    "difficulty": 951,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:05.205095+00:00"
+  },
+  "abc154_e": {
+    "problem_id": "abc154_e",
+    "title": "E. Almost Everywhere Zero",
+    "contest_id": "abc154",
+    "difficulty": 1298,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:05.205117+00:00"
+  },
+  "abc088_c": {
+    "problem_id": "abc088_c",
+    "title": "C. Takahashi's Information",
+    "contest_id": "abc088",
+    "difficulty": 477,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:05.205135+00:00"
+  },
+  "arc118_b": {
+    "problem_id": "arc118_b",
+    "title": "B. Village of M People",
+    "contest_id": "arc118",
+    "difficulty": 1196,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:05.205158+00:00"
+  },
+  "arc082_b": {
+    "problem_id": "arc082_b",
+    "title": "D. Derangement",
+    "contest_id": "abc072",
+    "difficulty": 656,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-13T03:14:05.205171+00:00"
   }
 }
