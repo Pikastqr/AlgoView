@@ -3402,5 +3402,383 @@
     ],
     "one_line_summary": "グラフ・木と動的計画法の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-14T13:59:42.526113+00:00"
+  },
+  "abc484_c": {
+    "problem_id": "abc484_c",
+    "title": "C. Move One Card",
+    "contest_id": "abc484",
+    "difficulty": 480,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:25.842348+00:00"
+  },
+  "abc484_b": {
+    "problem_id": "abc484_b",
+    "title": "B. Nineball ",
+    "contest_id": "abc484",
+    "difficulty": 27,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:25.842411+00:00"
+  },
+  "abc484_a": {
+    "problem_id": "abc484_a",
+    "title": "A. Chocolate Bar Count",
+    "contest_id": "abc484",
+    "difficulty": 16,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:25.842441+00:00"
+  },
+  "abc467_b": {
+    "problem_id": "abc467_b",
+    "title": "D. Keep the Change",
+    "contest_id": "adt_easy_20261023_1",
+    "difficulty": 39,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:25.842468+00:00"
+  },
+  "abc467_a": {
+    "problem_id": "abc467_a",
+    "title": "B. Obesity",
+    "contest_id": "adt_easy_20261109_1",
+    "difficulty": 76,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:25.842491+00:00"
+  },
+  "abc465_c": {
+    "problem_id": "abc465_c",
+    "title": "E. Reverse Permutation",
+    "contest_id": "adt_easy_20260820_2",
+    "difficulty": 443,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:29.980392+00:00"
+  },
+  "abc465_b": {
+    "problem_id": "abc465_b",
+    "title": "D. Parking 2",
+    "contest_id": "adt_easy_20261028_2",
+    "difficulty": 56,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:29.980440+00:00"
+  },
+  "abc465_a": {
+    "problem_id": "abc465_a",
+    "title": "A. Supermajority",
+    "contest_id": "adt_easy_20260930_1",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:29.980465+00:00"
+  },
+  "abc463_c": {
+    "problem_id": "abc463_c",
+    "title": "E. Tallest at the Moment",
+    "contest_id": "adt_easy_20261013_2",
+    "difficulty": 274,
+    "weights": {
+      "IMP": 10,
+      "DS": 29,
+      "GRP": 6,
+      "DP": 23,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:29.980495+00:00"
+  },
+  "abc463_b": {
+    "problem_id": "abc463_b",
+    "title": "B. Train Reservation",
+    "contest_id": "abc463",
+    "difficulty": 30,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:29.980519+00:00"
+  },
+  "arc184_a": {
+    "problem_id": "arc184_a",
+    "title": "A. Appraiser",
+    "contest_id": "arc184",
+    "difficulty": 1383,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:34.159439+00:00"
+  },
+  "abc187_d": {
+    "problem_id": "abc187_d",
+    "title": "D. Choose Me",
+    "contest_id": "abc187",
+    "difficulty": 650,
+    "weights": {
+      "IMP": 9,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 22,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:34.159484+00:00"
+  },
+  "arc116_b": {
+    "problem_id": "arc116_b",
+    "title": "B. Products of Min-Max",
+    "contest_id": "arc116",
+    "difficulty": 816,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 7,
+      "DP": 7,
+      "MTH": 34,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数学・数え上げとひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:34.159515+00:00"
+  },
+  "abc106_d": {
+    "problem_id": "abc106_d",
+    "title": "D. AtCoder Express 2",
+    "contest_id": "abc106",
+    "difficulty": 1319,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-14T19:47:34.159546+00:00"
   }
 }
