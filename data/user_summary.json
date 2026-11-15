@@ -2,9 +2,9 @@
   "user_id": "Pikapurin",
   "user_rating": 775,
   "profile_url": "https://atcoder.jp/users/Pikapurin",
-  "updated_at": "2026-11-15T02:27:29.974871+00:00",
+  "updated_at": "2026-11-15T14:34:50.330683+00:00",
   "total_ac_count": 332,
-  "analyzed_ac_count": 82,
+  "analyzed_ac_count": 92,
   "latest_submission_epoch": 1794663074,
   "all_ac_ids": [
     "APG4bPython_a",
@@ -10713,9 +10713,26 @@
       "title": "B. Mod While Positive",
       "difficulty": 15,
       "epoch_second": 1780142559,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 11,
+        "DS": 11,
+        "GRP": 7,
+        "DP": 7,
+        "MTH": 34,
+        "INS": 15,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "MTH",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc458_c",
@@ -10723,9 +10740,26 @@
       "title": "F. C Stands for Center",
       "difficulty": 142,
       "epoch_second": 1778933754,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc458_b",
@@ -10733,9 +10767,26 @@
       "title": "D. Count Adjacent Cells",
       "difficulty": 55,
       "epoch_second": 1778933264,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 9,
+        "GRP": 30,
+        "DP": 6,
+        "MTH": 6,
+        "INS": 12,
+        "OPT": 12
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc458_a",
@@ -10743,9 +10794,26 @@
       "title": "A. Chompers",
       "difficulty": 15,
       "epoch_second": 1778932904,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc457_c",
@@ -10753,9 +10821,26 @@
       "title": "F. Long Sequence",
       "difficulty": 230,
       "epoch_second": 1778329457,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 11,
+        "DS": 11,
+        "GRP": 34,
+        "DP": 7,
+        "MTH": 7,
+        "INS": 15,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc457_b",
@@ -10763,9 +10848,26 @@
       "title": "D. Arrays",
       "difficulty": 45,
       "epoch_second": 1778328445,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc457_a",
@@ -10773,9 +10875,26 @@
       "title": "B. Array",
       "difficulty": 13,
       "epoch_second": 1778328074,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc382_b",
@@ -10783,9 +10902,26 @@
       "title": "D. Daily Cookie 2",
       "difficulty": 24,
       "epoch_second": 1777886229,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 27,
+        "DS": 10,
+        "GRP": 7,
+        "DP": 23,
+        "MTH": 7,
+        "INS": 13,
+        "OPT": 13
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        },
+        {
+          "param": "DP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc341_b",
@@ -10793,9 +10929,26 @@
       "title": "C. Foreign Exchange",
       "difficulty": 163,
       "epoch_second": 1777885944,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 28,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc325_a",
@@ -10803,9 +10956,26 @@
       "title": "A. Takahashi san",
       "difficulty": 8,
       "epoch_second": 1777885350,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 9,
+        "GRP": 30,
+        "DP": 6,
+        "MTH": 6,
+        "INS": 12,
+        "OPT": 12
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc456_d",

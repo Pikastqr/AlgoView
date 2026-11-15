@@ -4050,5 +4050,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-15T02:27:29.830304+00:00"
+  },
+  "abc460_a": {
+    "problem_id": "abc460_a",
+    "title": "B. Mod While Positive",
+    "contest_id": "adt_easy_20260915_2",
+    "difficulty": 15,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 7,
+      "DP": 7,
+      "MTH": 34,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数学・数え上げとひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:46.079730+00:00"
+  },
+  "abc458_c": {
+    "problem_id": "abc458_c",
+    "title": "F. C Stands for Center",
+    "contest_id": "adt_all_20260930_1",
+    "difficulty": 142,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:46.079776+00:00"
+  },
+  "abc458_b": {
+    "problem_id": "abc458_b",
+    "title": "D. Count Adjacent Cells",
+    "contest_id": "adt_easy_20260902_1",
+    "difficulty": 55,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:46.079802+00:00"
+  },
+  "abc458_a": {
+    "problem_id": "abc458_a",
+    "title": "A. Chompers",
+    "contest_id": "adt_easy_20261023_2",
+    "difficulty": 15,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:46.079818+00:00"
+  },
+  "abc457_c": {
+    "problem_id": "abc457_c",
+    "title": "F. Long Sequence",
+    "contest_id": "adt_all_20260731_1",
+    "difficulty": 230,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 34,
+      "DP": 7,
+      "MTH": 7,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:46.079840+00:00"
+  },
+  "abc457_b": {
+    "problem_id": "abc457_b",
+    "title": "D. Arrays",
+    "contest_id": "adt_easy_20260908_1",
+    "difficulty": 45,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:50.161024+00:00"
+  },
+  "abc457_a": {
+    "problem_id": "abc457_a",
+    "title": "B. Array",
+    "contest_id": "adt_easy_20260910_1",
+    "difficulty": 13,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:50.161066+00:00"
+  },
+  "abc382_b": {
+    "problem_id": "abc382_b",
+    "title": "D. Daily Cookie 2",
+    "contest_id": "adt_easy_20261014_1",
+    "difficulty": 24,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:50.161109+00:00"
+  },
+  "abc341_b": {
+    "problem_id": "abc341_b",
+    "title": "C. Foreign Exchange",
+    "contest_id": "adt_easy_20261023_1",
+    "difficulty": 163,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:50.161132+00:00"
+  },
+  "abc325_a": {
+    "problem_id": "abc325_a",
+    "title": "A. Takahashi san",
+    "contest_id": "adt_easy_20261111_2",
+    "difficulty": 8,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T14:34:50.161150+00:00"
   }
 }
