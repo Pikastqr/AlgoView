@@ -4320,5 +4320,275 @@
     ],
     "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-15T14:34:50.161150+00:00"
+  },
+  "abc456_d": {
+    "problem_id": "abc456_d",
+    "title": "G. Not Adjacent 2",
+    "contest_id": "adt_all_20260908_2",
+    "difficulty": 586,
+    "weights": {
+      "IMP": 18,
+      "DS": 20,
+      "GRP": 20,
+      "DP": 4,
+      "MTH": 20,
+      "INS": 9,
+      "OPT": 9
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とグラフ・木の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:12.972576+00:00"
+  },
+  "abc456_c": {
+    "problem_id": "abc456_c",
+    "title": "E. Not Adjacent",
+    "contest_id": "adt_easy_20261019_2",
+    "difficulty": 233,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 6,
+      "DP": 6,
+      "MTH": 30,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数学・数え上げと実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:12.972633+00:00"
+  },
+  "abc456_b": {
+    "problem_id": "abc456_b",
+    "title": "D. 456",
+    "contest_id": "adt_easy_20261103_1",
+    "difficulty": 96,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 7,
+      "DP": 7,
+      "MTH": 34,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数学・数え上げとひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:12.972710+00:00"
+  },
+  "abc456_a": {
+    "problem_id": "abc456_a",
+    "title": "A. Dice",
+    "contest_id": "adt_easy_20260713_2",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:12.972734+00:00"
+  },
+  "abc455_b": {
+    "problem_id": "abc455_b",
+    "title": "B. Spiral Galaxy",
+    "contest_id": "abc455",
+    "difficulty": 187,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:12.972764+00:00"
+  },
+  "abc455_a": {
+    "problem_id": "abc455_a",
+    "title": "A. 455",
+    "contest_id": "adt_easy_20261111_1",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:17.105154+00:00"
+  },
+  "abc454_c": {
+    "problem_id": "abc454_c",
+    "title": "F. Straw Millionaire",
+    "contest_id": "adt_all_20260729_1",
+    "difficulty": 274,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:17.105203+00:00"
+  },
+  "abc454_b": {
+    "problem_id": "abc454_b",
+    "title": "C. Mapping",
+    "contest_id": "adt_easy_20260518_1",
+    "difficulty": 45,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:17.105235+00:00"
+  },
+  "abc454_a": {
+    "problem_id": "abc454_a",
+    "title": "A. Closed interval",
+    "contest_id": "adt_easy_20261007_1",
+    "difficulty": 15,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:17.105252+00:00"
+  },
+  "abc453_b": {
+    "problem_id": "abc453_b",
+    "title": "D. Sensor Data Logging",
+    "contest_id": "adt_easy_20261016_2",
+    "difficulty": 49,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-15T20:13:17.105280+00:00"
   }
 }
