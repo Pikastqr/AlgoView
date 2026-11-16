@@ -4590,5 +4590,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-15T20:13:17.105280+00:00"
+  },
+  "abc453_a": {
+    "problem_id": "abc453_a",
+    "title": "B. Trimo",
+    "contest_id": "adt_easy_20260806_1",
+    "difficulty": 28,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:23.154130+00:00"
+  },
+  "abc452_b": {
+    "problem_id": "abc452_b",
+    "title": "D. Draw Frame",
+    "contest_id": "adt_all_20261026_1",
+    "difficulty": 25,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:23.154216+00:00"
+  },
+  "abc452_a": {
+    "problem_id": "abc452_a",
+    "title": "B. Gothec",
+    "contest_id": "adt_easy_20260910_2",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:23.154240+00:00"
+  },
+  "abc451_c": {
+    "problem_id": "abc451_c",
+    "title": "E. Understory",
+    "contest_id": "adt_easy_20261106_2",
+    "difficulty": 275,
+    "weights": {
+      "IMP": 9,
+      "DS": 28,
+      "GRP": 27,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とグラフ・木の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:23.154262+00:00"
+  },
+  "abc451_b": {
+    "problem_id": "abc451_b",
+    "title": "C. Personnel Change",
+    "contest_id": "adt_easy_20261008_1",
+    "difficulty": 36,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:23.154282+00:00"
+  },
+  "abc451_a": {
+    "problem_id": "abc451_a",
+    "title": "A. illegal",
+    "contest_id": "adt_easy_20261015_1",
+    "difficulty": 11,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:27.319473+00:00"
+  },
+  "abc450_d": {
+    "problem_id": "abc450_d",
+    "title": "G. Minimize Range",
+    "contest_id": "adt_all_20260922_2",
+    "difficulty": 647,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:27.319521+00:00"
+  },
+  "abc450_b": {
+    "problem_id": "abc450_b",
+    "title": "D. Split Ticketing",
+    "contest_id": "adt_easy_20261022_1",
+    "difficulty": 114,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:27.319550+00:00"
+  },
+  "abc450_a": {
+    "problem_id": "abc450_a",
+    "title": "B. 3,2,1,GO",
+    "contest_id": "adt_easy_20260810_1",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:27.319566+00:00"
+  },
+  "abc449_b": {
+    "problem_id": "abc449_b",
+    "title": "D. Deconstruct Chocolate",
+    "contest_id": "adt_easy_20260916_1",
+    "difficulty": 45,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T02:37:27.319592+00:00"
   }
 }

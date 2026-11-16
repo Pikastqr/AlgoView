@@ -2,9 +2,9 @@
   "user_id": "Pikapurin",
   "user_rating": 775,
   "profile_url": "https://atcoder.jp/users/Pikapurin",
-  "updated_at": "2026-11-15T20:13:17.399513+00:00",
+  "updated_at": "2026-11-16T02:37:27.680030+00:00",
   "total_ac_count": 332,
-  "analyzed_ac_count": 102,
+  "analyzed_ac_count": 112,
   "latest_submission_epoch": 1794663074,
   "all_ac_ids": [
     "APG4bPython_a",
@@ -11253,9 +11253,26 @@
       "title": "B. Trimo",
       "difficulty": 28,
       "epoch_second": 1775909028,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc452_b",
@@ -11263,9 +11280,26 @@
       "title": "D. Draw Frame",
       "difficulty": 25,
       "epoch_second": 1775304388,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 9,
+        "GRP": 30,
+        "DP": 6,
+        "MTH": 6,
+        "INS": 12,
+        "OPT": 12
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc452_a",
@@ -11273,9 +11307,26 @@
       "title": "B. Gothec",
       "difficulty": 12,
       "epoch_second": 1775304204,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc451_c",
@@ -11283,9 +11334,26 @@
       "title": "E. Understory",
       "difficulty": 275,
       "epoch_second": 1774702684,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 9,
+        "DS": 28,
+        "GRP": 27,
+        "DP": 6,
+        "MTH": 6,
+        "INS": 12,
+        "OPT": 12
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑"
+        },
+        {
+          "param": "GRP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc451_b",
@@ -11293,9 +11361,26 @@
       "title": "C. Personnel Change",
       "difficulty": 36,
       "epoch_second": 1774699487,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc451_a",
@@ -11303,9 +11388,26 @@
       "title": "A. illegal",
       "difficulty": 11,
       "epoch_second": 1774699273,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc450_d",
@@ -11313,9 +11415,26 @@
       "title": "G. Minimize Range",
       "difficulty": 647,
       "epoch_second": 1774097733,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 28,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc450_b",
@@ -11323,9 +11442,26 @@
       "title": "D. Split Ticketing",
       "difficulty": 114,
       "epoch_second": 1774096221,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 28,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc450_a",
@@ -11333,9 +11469,26 @@
       "title": "B. 3,2,1,GO",
       "difficulty": 14,
       "epoch_second": 1774094470,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc449_b",
@@ -11343,9 +11496,26 @@
       "title": "D. Deconstruct Chocolate",
       "difficulty": 45,
       "epoch_second": 1773831762,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 34,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 15,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc449_a",
