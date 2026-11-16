@@ -4860,5 +4860,275 @@
     ],
     "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-16T02:37:27.319592+00:00"
+  },
+  "abc449_a": {
+    "problem_id": "abc449_a",
+    "title": "B. π",
+    "contest_id": "adt_easy_20261023_1",
+    "difficulty": 30,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:46.571980+00:00"
+  },
+  "abc448_c": {
+    "problem_id": "abc448_c",
+    "title": "E. Except and Min",
+    "contest_id": "adt_easy_20260917_2",
+    "difficulty": 262,
+    "weights": {
+      "IMP": 10,
+      "DS": 29,
+      "GRP": 6,
+      "DP": 23,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:46.572056+00:00"
+  },
+  "abc448_b": {
+    "problem_id": "abc448_b",
+    "title": "D. Pepper Addiction",
+    "contest_id": "adt_easy_20260910_2",
+    "difficulty": 68,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:46.572107+00:00"
+  },
+  "abc448_a": {
+    "problem_id": "abc448_a",
+    "title": "B. chmin",
+    "contest_id": "adt_easy_20261016_1",
+    "difficulty": 13,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:46.572149+00:00"
+  },
+  "abc447_b": {
+    "problem_id": "abc447_b",
+    "title": "D. mpp",
+    "contest_id": "adt_easy_20260728_2",
+    "difficulty": 50,
+    "weights": {
+      "IMP": 19,
+      "DS": 21,
+      "GRP": 21,
+      "DP": 16,
+      "MTH": 5,
+      "INS": 9,
+      "OPT": 9
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とグラフ・木の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:46.572179+00:00"
+  },
+  "abc447_a": {
+    "problem_id": "abc447_a",
+    "title": "A. Seats 2",
+    "contest_id": "adt_easy_20260714_1",
+    "difficulty": 15,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:50.667984+00:00"
+  },
+  "abc446_d": {
+    "problem_id": "abc446_d",
+    "title": "G. Max Straight",
+    "contest_id": "adt_all_20261019_2",
+    "difficulty": 550,
+    "weights": {
+      "IMP": 10,
+      "DS": 29,
+      "GRP": 6,
+      "DP": 23,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:50.668036+00:00"
+  },
+  "abc446_c": {
+    "problem_id": "abc446_c",
+    "title": "F. Omelette Restaurant",
+    "contest_id": "adt_all_20260909_2",
+    "difficulty": 384,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:50.668089+00:00"
+  },
+  "abc446_b": {
+    "problem_id": "abc446_b",
+    "title": "D. Greedy Draft",
+    "contest_id": "adt_easy_20260930_2",
+    "difficulty": 59,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:50.668143+00:00"
+  },
+  "abc446_a": {
+    "problem_id": "abc446_a",
+    "title": "B. Handmaid",
+    "contest_id": "adt_easy_20260908_2",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-16T16:49:50.668176+00:00"
   }
 }
