@@ -5400,5 +5400,275 @@
     ],
     "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-17T04:59:29.836811+00:00"
+  },
+  "abc300_b": {
+    "problem_id": "abc300_b",
+    "title": "C. Same Map in the RPG World",
+    "contest_id": "adt_easy_20261117_1",
+    "difficulty": 353,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:16.568735+00:00"
+  },
+  "abc441_c": {
+    "problem_id": "abc441_c",
+    "title": "E. Sake or Water",
+    "contest_id": "adt_easy_20261117_1",
+    "difficulty": 406,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:16.568789+00:00"
+  },
+  "abc349_a": {
+    "problem_id": "abc349_a",
+    "title": "A. Zero Sum Game",
+    "contest_id": "adt_easy_20261117_1",
+    "difficulty": 25,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:16.568820+00:00"
+  },
+  "abc434_c": {
+    "problem_id": "abc434_c",
+    "title": "F. Flapping Takahashi",
+    "contest_id": "adt_all_20261013_2",
+    "difficulty": 374,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:16.568853+00:00"
+  },
+  "abc437_c": {
+    "problem_id": "abc437_c",
+    "title": "F. Reindeer and Sleigh 2",
+    "contest_id": "adt_all_20261021_1",
+    "difficulty": 489,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:16.568897+00:00"
+  },
+  "abc420_b": {
+    "problem_id": "abc420_b",
+    "title": "C. Most Minority",
+    "contest_id": "adt_easy_20260728_1",
+    "difficulty": 74,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:20.655282+00:00"
+  },
+  "abc420_a": {
+    "problem_id": "abc420_a",
+    "title": "B. What month is it?",
+    "contest_id": "adt_easy_20251104_1",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:20.655319+00:00"
+  },
+  "abc421_a": {
+    "problem_id": "abc421_a",
+    "title": "A. Misdelivery",
+    "contest_id": "adt_easy_20260925_1",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:20.655351+00:00"
+  },
+  "abc422_a": {
+    "problem_id": "abc422_a",
+    "title": "B. Stage Clear",
+    "contest_id": "adt_easy_20260814_1",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:20.655375+00:00"
+  },
+  "abc442_d": {
+    "problem_id": "abc442_d",
+    "title": "G. Swap and Range Sum",
+    "contest_id": "adt_all_20260928_2",
+    "difficulty": 293,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T16:45:20.655422+00:00"
   }
 }
