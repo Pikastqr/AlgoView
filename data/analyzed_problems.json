@@ -5130,5 +5130,275 @@
     ],
     "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-16T16:49:50.668176+00:00"
+  },
+  "awc0002_d": {
+    "problem_id": "awc0002_d",
+    "title": "D. Keys and Treasure Boxes",
+    "contest_id": "awc0002",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:25.742899+00:00"
+  },
+  "awc0002_c": {
+    "problem_id": "awc0002_c",
+    "title": "C. Observing Plant Growth",
+    "contest_id": "awc0002",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:25.742965+00:00"
+  },
+  "awc0002_b": {
+    "problem_id": "awc0002_b",
+    "title": "B. Fruit Sorting",
+    "contest_id": "awc0002",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:25.743014+00:00"
+  },
+  "awc0002_a": {
+    "problem_id": "awc0002_a",
+    "title": "A. Organizing the Bookshelf",
+    "contest_id": "awc0002",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 34,
+      "DP": 7,
+      "MTH": 7,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:25.743051+00:00"
+  },
+  "abc444_d": {
+    "problem_id": "abc444_d",
+    "title": "G. Many Repunit Sum",
+    "contest_id": "adt_all_20261012_1",
+    "difficulty": 574,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:25.743078+00:00"
+  },
+  "abc444_b": {
+    "problem_id": "abc444_b",
+    "title": "D. Digit Sum",
+    "contest_id": "adt_easy_20261023_2",
+    "difficulty": 36,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:29.836614+00:00"
+  },
+  "abc444_a": {
+    "problem_id": "abc444_a",
+    "title": "A. Repdigit",
+    "contest_id": "adt_easy_20261005_1",
+    "difficulty": 9,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:29.836659+00:00"
+  },
+  "abc443_c": {
+    "problem_id": "abc443_c",
+    "title": "C. Chokutter Addiction",
+    "contest_id": "abc443",
+    "difficulty": 150,
+    "weights": {
+      "IMP": 9,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 22,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:29.836744+00:00"
+  },
+  "abc443_b": {
+    "problem_id": "abc443_b",
+    "title": "C. Setsubun",
+    "contest_id": "adt_easy_20260928_2",
+    "difficulty": 28,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 34,
+      "DP": 7,
+      "MTH": 7,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:29.836785+00:00"
+  },
+  "abc443_a": {
+    "problem_id": "abc443_a",
+    "title": "A. Append s",
+    "contest_id": "adt_easy_20260421_1",
+    "difficulty": 9,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-17T04:59:29.836811+00:00"
   }
 }
