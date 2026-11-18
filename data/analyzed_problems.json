@@ -5940,5 +5940,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-18T04:04:32.576345+00:00"
+  },
+  "abc439_a": {
+    "problem_id": "abc439_a",
+    "title": "B. 2^n - 2*n",
+    "contest_id": "adt_easy_20260915_1",
+    "difficulty": 8,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:05.413858+00:00"
+  },
+  "abc438_d": {
+    "problem_id": "abc438_d",
+    "title": "G. Tail of Snake ",
+    "contest_id": "adt_all_20261113_1",
+    "difficulty": 652,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:05.413929+00:00"
+  },
+  "abc438_c": {
+    "problem_id": "abc438_c",
+    "title": "F. 1D puyopuyo",
+    "contest_id": "adt_all_20261013_1",
+    "difficulty": 368,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:05.413958+00:00"
+  },
+  "abc438_b": {
+    "problem_id": "abc438_b",
+    "title": "D. Substring 2",
+    "contest_id": "adt_medium_20260205_3",
+    "difficulty": 92,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:05.413993+00:00"
+  },
+  "abc438_a": {
+    "problem_id": "abc438_a",
+    "title": "B. First Contest of the Year",
+    "contest_id": "adt_all_20261020_2",
+    "difficulty": 29,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:05.414010+00:00"
+  },
+  "abc437_d": {
+    "problem_id": "abc437_d",
+    "title": "G. Sum of Differences",
+    "contest_id": "adt_all_20260429_2",
+    "difficulty": 509,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 7,
+      "DP": 7,
+      "MTH": 34,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数学・数え上げとひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:09.528489+00:00"
+  },
+  "abc437_b": {
+    "problem_id": "abc437_b",
+    "title": "D. Tombola",
+    "contest_id": "adt_easy_20260911_2",
+    "difficulty": 34,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:09.528557+00:00"
+  },
+  "abc437_a": {
+    "problem_id": "abc437_a",
+    "title": "A. Feet",
+    "contest_id": "adt_easy_20260716_2",
+    "difficulty": 7,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:09.528582+00:00"
+  },
+  "abc436_e": {
+    "problem_id": "abc436_e",
+    "title": "H. Minimum Swap",
+    "contest_id": "adt_all_20260604_2",
+    "difficulty": 958,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:09.528625+00:00"
+  },
+  "abc436_c": {
+    "problem_id": "abc436_c",
+    "title": "F. 2x2 Placing",
+    "contest_id": "adt_all_20261116_1",
+    "difficulty": 248,
+    "weights": {
+      "IMP": 22,
+      "DS": 25,
+      "GRP": 6,
+      "DP": 19,
+      "MTH": 6,
+      "INS": 11,
+      "OPT": 11
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T16:16:09.528648+00:00"
   }
 }
