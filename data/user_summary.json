@@ -2,9 +2,9 @@
   "user_id": "Pikapurin",
   "user_rating": 775,
   "profile_url": "https://atcoder.jp/users/Pikapurin",
-  "updated_at": "2026-11-17T16:45:21.134390+00:00",
+  "updated_at": "2026-11-18T04:04:32.780553+00:00",
   "total_ac_count": 335,
-  "analyzed_ac_count": 142,
+  "analyzed_ac_count": 152,
   "latest_submission_epoch": 1794903035,
   "all_ac_ids": [
     "APG4bPython_a",
@@ -12336,9 +12336,26 @@
       "title": "F. Peer Review",
       "difficulty": 174,
       "epoch_second": 1769257052,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 10,
+        "DS": 29,
+        "GRP": 6,
+        "DP": 23,
+        "MTH": 6,
+        "INS": 13,
+        "OPT": 13
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑"
+        },
+        {
+          "param": "DP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc442_b",
@@ -12346,9 +12363,26 @@
       "title": "D. Music Player",
       "difficulty": 27,
       "epoch_second": 1769256414,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 28,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc442_a",
@@ -12356,9 +12390,26 @@
       "title": "A. Count .",
       "difficulty": 10,
       "epoch_second": 1769256117,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc441_b",
@@ -12366,9 +12417,26 @@
       "title": "C. Two Languages",
       "difficulty": 70,
       "epoch_second": 1768653106,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 9,
+        "GRP": 30,
+        "DP": 6,
+        "MTH": 6,
+        "INS": 12,
+        "OPT": 12
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc441_a",
@@ -12376,9 +12444,26 @@
       "title": "A. Black Square",
       "difficulty": 30,
       "epoch_second": 1768651441,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc440_b",
@@ -12386,9 +12471,26 @@
       "title": "D. Trifecta",
       "difficulty": 27,
       "epoch_second": 1768046718,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc440_a",
@@ -12396,9 +12498,26 @@
       "title": "B. Octave",
       "difficulty": 12,
       "epoch_second": 1768046476,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc439_d",
@@ -12406,9 +12525,26 @@
       "title": "G. Kadomatsu Subsequence",
       "difficulty": 627,
       "epoch_second": 1767834449,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc439_c",
@@ -12416,9 +12552,26 @@
       "title": "F. 2026",
       "difficulty": 328,
       "epoch_second": 1767444366,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc439_b",
@@ -12426,9 +12579,26 @@
       "title": "C. Happy Number",
       "difficulty": 46,
       "epoch_second": 1767442342,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc439_a",

@@ -5670,5 +5670,275 @@
     ],
     "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-17T16:45:20.655422+00:00"
+  },
+  "abc442_c": {
+    "problem_id": "abc442_c",
+    "title": "F. Peer Review",
+    "contest_id": "adt_all_20260827_1",
+    "difficulty": 174,
+    "weights": {
+      "IMP": 10,
+      "DS": 29,
+      "GRP": 6,
+      "DP": 23,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:28.454166+00:00"
+  },
+  "abc442_b": {
+    "problem_id": "abc442_b",
+    "title": "D. Music Player",
+    "contest_id": "adt_easy_20260731_2",
+    "difficulty": 27,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:28.454231+00:00"
+  },
+  "abc442_a": {
+    "problem_id": "abc442_a",
+    "title": "A. Count .",
+    "contest_id": "adt_easy_20261103_2",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:28.454268+00:00"
+  },
+  "abc441_b": {
+    "problem_id": "abc441_b",
+    "title": "C. Two Languages",
+    "contest_id": "adt_easy_20260915_2",
+    "difficulty": 70,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:28.454319+00:00"
+  },
+  "abc441_a": {
+    "problem_id": "abc441_a",
+    "title": "A. Black Square",
+    "contest_id": "adt_easy_20260724_1",
+    "difficulty": 30,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:28.454355+00:00"
+  },
+  "abc440_b": {
+    "problem_id": "abc440_b",
+    "title": "D. Trifecta",
+    "contest_id": "adt_easy_20260925_1",
+    "difficulty": 27,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:32.576183+00:00"
+  },
+  "abc440_a": {
+    "problem_id": "abc440_a",
+    "title": "B. Octave",
+    "contest_id": "adt_easy_20261007_1",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:32.576233+00:00"
+  },
+  "abc439_d": {
+    "problem_id": "abc439_d",
+    "title": "G. Kadomatsu Subsequence",
+    "contest_id": "adt_all_20260902_1",
+    "difficulty": 627,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:32.576277+00:00"
+  },
+  "abc439_c": {
+    "problem_id": "abc439_c",
+    "title": "F. 2026",
+    "contest_id": "adt_all_20260924_2",
+    "difficulty": 328,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:32.576308+00:00"
+  },
+  "abc439_b": {
+    "problem_id": "abc439_b",
+    "title": "C. Happy Number",
+    "contest_id": "adt_easy_20260212_1",
+    "difficulty": 46,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-18T04:04:32.576345+00:00"
   }
 }
