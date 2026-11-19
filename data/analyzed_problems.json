@@ -6480,5 +6480,275 @@
     ],
     "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-19T04:00:49.768087+00:00"
+  },
+  "abc407_c": {
+    "problem_id": "abc407_c",
+    "title": "F. Security 2",
+    "contest_id": "adt_all_20260820_2",
+    "difficulty": 295,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:38.171038+00:00"
+  },
+  "abc432_b": {
+    "problem_id": "abc432_b",
+    "title": "D. Permute to Minimize",
+    "contest_id": "adt_easy_20261117_1",
+    "difficulty": 48,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:38.171086+00:00"
+  },
+  "abc432_a": {
+    "problem_id": "abc432_a",
+    "title": "A. Permute to Maximize",
+    "contest_id": "adt_easy_20260909_2",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:38.171108+00:00"
+  },
+  "abc420_c": {
+    "problem_id": "abc420_c",
+    "title": "E. Sum of Min Query",
+    "contest_id": "adt_easy_20260903_1",
+    "difficulty": 169,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:38.171135+00:00"
+  },
+  "abc431_c": {
+    "problem_id": "abc431_c",
+    "title": "F. Robot Factory",
+    "contest_id": "adt_all_20260226_2",
+    "difficulty": 172,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:38.171160+00:00"
+  },
+  "abc431_b": {
+    "problem_id": "abc431_b",
+    "title": "D. Robot Weight",
+    "contest_id": "adt_medium_20260120_3",
+    "difficulty": 36,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:42.298030+00:00"
+  },
+  "abc431_a": {
+    "problem_id": "abc431_a",
+    "title": "A. Robot Balance",
+    "contest_id": "adt_easy_20261019_1",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:42.298072+00:00"
+  },
+  "abc421_b": {
+    "problem_id": "abc421_b",
+    "title": "D. Fibonacci Reversed",
+    "contest_id": "adt_easy_20260813_2",
+    "difficulty": 55,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:42.298101+00:00"
+  },
+  "abc430_b": {
+    "problem_id": "abc430_b",
+    "title": "D. Count Subgrid",
+    "contest_id": "adt_easy_20260901_2",
+    "difficulty": 141,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:42.298120+00:00"
+  },
+  "abc430_a": {
+    "problem_id": "abc430_a",
+    "title": "A. Candy Cookie Law",
+    "contest_id": "adt_easy_20260826_1",
+    "difficulty": 18,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-19T16:24:42.298137+00:00"
   }
 }
