@@ -7020,5 +7020,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-20T03:54:12.988705+00:00"
+  },
+  "abc429_a": {
+    "problem_id": "abc429_a",
+    "title": "B. Too Many Requests",
+    "contest_id": "adt_easy_20251211_2",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:34.216086+00:00"
+  },
+  "abc429_b": {
+    "problem_id": "abc429_b",
+    "title": "D. N - 1",
+    "contest_id": "adt_medium_20251210_2",
+    "difficulty": 24,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:34.216130+00:00"
+  },
+  "abc408_c": {
+    "problem_id": "abc408_c",
+    "title": "E. Not All Covered",
+    "contest_id": "adt_easy_20261111_1",
+    "difficulty": 223,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:34.216177+00:00"
+  },
+  "abc384_b": {
+    "problem_id": "abc384_b",
+    "title": "D. ARC Division",
+    "contest_id": "adt_easy_20260814_2",
+    "difficulty": 30,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:34.216214+00:00"
+  },
+  "abc385_b": {
+    "problem_id": "abc385_b",
+    "title": "C. Santa Claus 1",
+    "contest_id": "adt_easy_20261106_2",
+    "difficulty": 77,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:34.216260+00:00"
+  },
+  "abc386_b": {
+    "problem_id": "abc386_b",
+    "title": "C. Calculator",
+    "contest_id": "adt_easy_20260922_2",
+    "difficulty": 42,
+    "weights": {
+      "IMP": 18,
+      "DS": 7,
+      "GRP": 21,
+      "DP": 16,
+      "MTH": 20,
+      "INS": 9,
+      "OPT": 9
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      },
+      {
+        "param": "MTH",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と数学・数え上げの総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:38.301226+00:00"
+  },
+  "abc387_b": {
+    "problem_id": "abc387_b",
+    "title": "C. 9x9 Sum",
+    "contest_id": "adt_easy_20261020_1",
+    "difficulty": 21,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:38.301270+00:00"
+  },
+  "abc388_b": {
+    "problem_id": "abc388_b",
+    "title": "C. Heavy Snake",
+    "contest_id": "adt_medium_20250417_1",
+    "difficulty": 30,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:38.301297+00:00"
+  },
+  "abc410_c": {
+    "problem_id": "abc410_c",
+    "title": "F. Rotatable Array",
+    "contest_id": "adt_all_20261105_2",
+    "difficulty": 230,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:38.301328+00:00"
+  },
+  "abc394_c": {
+    "problem_id": "abc394_c",
+    "title": "F. Debug",
+    "contest_id": "adt_all_20261023_2",
+    "difficulty": 161,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T15:57:38.301356+00:00"
   }
 }
