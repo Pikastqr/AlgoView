@@ -2,9 +2,9 @@
   "user_id": "Pikapurin",
   "user_rating": 775,
   "profile_url": "https://atcoder.jp/users/Pikapurin",
-  "updated_at": "2026-11-19T16:24:42.638221+00:00",
+  "updated_at": "2026-11-20T03:54:13.385222+00:00",
   "total_ac_count": 335,
-  "analyzed_ac_count": 182,
+  "analyzed_ac_count": 192,
   "latest_submission_epoch": 1794903035,
   "all_ac_ids": [
     "APG4bPython_a",
@@ -13416,9 +13416,26 @@
       "title": "E. Rotate and Sum Query",
       "difficulty": 315,
       "epoch_second": 1761967127,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 34,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 15,
+        "OPT": 15
+      },
+      "tags": [
+        {
+          "param": "DS",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc422_b",
@@ -13426,9 +13443,26 @@
       "title": "D. Looped Rope",
       "difficulty": 400,
       "epoch_second": 1761954948,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc410_b",
@@ -13436,9 +13470,26 @@
       "title": "D. Reverse Proxy",
       "difficulty": 57,
       "epoch_second": 1761737486,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 28,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc284_a",
@@ -13446,9 +13497,26 @@
       "title": "A. Sequence of Strings",
       "difficulty": 10,
       "epoch_second": 1761736633,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 32,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 8,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc352_a",
@@ -13456,9 +13524,26 @@
       "title": "B. AtCoder Line",
       "difficulty": 14,
       "epoch_second": 1761736523,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc425_a",
@@ -13466,9 +13551,26 @@
       "title": "A. Sigma Cubes",
       "difficulty": 13,
       "epoch_second": 1761733828,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc425_b",
@@ -13476,9 +13578,26 @@
       "title": "D. Find Permutation 2",
       "difficulty": 82,
       "epoch_second": 1761662163,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc420_d",
@@ -13486,9 +13605,26 @@
       "title": "G. Toggle Maze",
       "difficulty": 699,
       "epoch_second": 1761531657,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 27,
+        "DS": 10,
+        "GRP": 7,
+        "DP": 23,
+        "MTH": 7,
+        "INS": 13,
+        "OPT": 13
+      },
+      "tags": [
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        },
+        {
+          "param": "DP",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "arc206_a",
@@ -13496,9 +13632,26 @@
       "title": "A. Range Replace",
       "difficulty": 554,
       "epoch_second": 1761524857,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 12,
+        "DS": 12,
+        "GRP": 8,
+        "DP": 28,
+        "MTH": 8,
+        "INS": 16,
+        "OPT": 16
+      },
+      "tags": [
+        {
+          "param": "DP",
+          "arrows": "↑"
+        },
+        {
+          "param": "INS",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc429_c",
@@ -13506,9 +13659,26 @@
       "title": "E. Odd One Subsequence",
       "difficulty": 201,
       "epoch_second": 1761395871,
-      "analyzed": false,
-      "weights": null,
-      "tags": []
+      "analyzed": true,
+      "weights": {
+        "IMP": 15,
+        "DS": 15,
+        "GRP": 10,
+        "DP": 10,
+        "MTH": 10,
+        "INS": 20,
+        "OPT": 20
+      },
+      "tags": [
+        {
+          "param": "INS",
+          "arrows": "↑"
+        },
+        {
+          "param": "OPT",
+          "arrows": "↑"
+        }
+      ]
     },
     {
       "problem_id": "abc429_a",

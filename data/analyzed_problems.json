@@ -6750,5 +6750,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-19T16:24:42.298137+00:00"
+  },
+  "abc425_c": {
+    "problem_id": "abc425_c",
+    "title": "E. Rotate and Sum Query",
+    "contest_id": "adt_easy_20260909_2",
+    "difficulty": 315,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:08.803362+00:00"
+  },
+  "abc422_b": {
+    "problem_id": "abc422_b",
+    "title": "D. Looped Rope",
+    "contest_id": "adt_easy_20260918_1",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:08.803421+00:00"
+  },
+  "abc410_b": {
+    "problem_id": "abc410_b",
+    "title": "D. Reverse Proxy",
+    "contest_id": "adt_easy_20261117_2",
+    "difficulty": 57,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:08.803458+00:00"
+  },
+  "abc284_a": {
+    "problem_id": "abc284_a",
+    "title": "A. Sequence of Strings",
+    "contest_id": "adt_easy_20261112_2",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:08.803480+00:00"
+  },
+  "abc352_a": {
+    "problem_id": "abc352_a",
+    "title": "B. AtCoder Line",
+    "contest_id": "adt_easy_20260619_2",
+    "difficulty": 14,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:08.803502+00:00"
+  },
+  "abc425_a": {
+    "problem_id": "abc425_a",
+    "title": "A. Sigma Cubes",
+    "contest_id": "adt_easy_20261021_1",
+    "difficulty": 13,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:12.988572+00:00"
+  },
+  "abc425_b": {
+    "problem_id": "abc425_b",
+    "title": "D. Find Permutation 2",
+    "contest_id": "adt_easy_20261104_1",
+    "difficulty": 82,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:12.988615+00:00"
+  },
+  "abc420_d": {
+    "problem_id": "abc420_d",
+    "title": "G. Toggle Maze",
+    "contest_id": "adt_all_20260723_1",
+    "difficulty": 699,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:12.988661+00:00"
+  },
+  "arc206_a": {
+    "problem_id": "arc206_a",
+    "title": "A. Range Replace",
+    "contest_id": "arc206",
+    "difficulty": 554,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:12.988684+00:00"
+  },
+  "abc429_c": {
+    "problem_id": "abc429_c",
+    "title": "E. Odd One Subsequence",
+    "contest_id": "adt_easy_20261009_2",
+    "difficulty": 201,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-20T03:54:12.988705+00:00"
   }
 }
