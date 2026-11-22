@@ -7830,5 +7830,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-21T15:09:28.887480+00:00"
+  },
+  "abc426_c": {
+    "problem_id": "abc426_c",
+    "title": "F. Upgrade Required",
+    "contest_id": "adt_all_20261016_2",
+    "difficulty": 458,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:34.599605+00:00"
+  },
+  "abc426_b": {
+    "problem_id": "abc426_b",
+    "title": "C. The Odd One Out",
+    "contest_id": "adt_easy_20261013_2",
+    "difficulty": 25,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:34.599651+00:00"
+  },
+  "abc426_a": {
+    "problem_id": "abc426_a",
+    "title": "B. OS Versions",
+    "contest_id": "adt_easy_20261008_1",
+    "difficulty": 18,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:34.599678+00:00"
+  },
+  "abc419_c": {
+    "problem_id": "abc419_c",
+    "title": "F. King's Summit",
+    "contest_id": "adt_all_20261028_1",
+    "difficulty": 259,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:34.599732+00:00"
+  },
+  "abc405_c": {
+    "problem_id": "abc405_c",
+    "title": "E. Sum of Product",
+    "contest_id": "adt_easy_20261005_2",
+    "difficulty": 102,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:34.599751+00:00"
+  },
+  "abc391_b": {
+    "problem_id": "abc391_b",
+    "title": "C. Seek Grid",
+    "contest_id": "adt_easy_20260818_2",
+    "difficulty": 110,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:38.796348+00:00"
+  },
+  "abc392_b": {
+    "problem_id": "abc392_b",
+    "title": "C. Who is Missing?",
+    "contest_id": "adt_easy_20260707_2",
+    "difficulty": 29,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:38.796392+00:00"
+  },
+  "dp_e": {
+    "problem_id": "dp_e",
+    "title": "E. Knapsack 2",
+    "contest_id": "dp",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:38.796425+00:00"
+  },
+  "dp_d": {
+    "problem_id": "dp_d",
+    "title": "D. Knapsack 1",
+    "contest_id": "dp",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:38.796451+00:00"
+  },
+  "dp_c": {
+    "problem_id": "dp_c",
+    "title": "C. Vacation",
+    "contest_id": "dp",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T02:52:38.796474+00:00"
   }
 }
