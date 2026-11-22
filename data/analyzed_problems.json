@@ -8100,5 +8100,302 @@
     ],
     "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-22T02:52:38.796474+00:00"
+  },
+  "abc468_b": {
+    "problem_id": "abc468_b",
+    "title": "B. Corridor Watch",
+    "contest_id": "abc468",
+    "difficulty": 56,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:12.550945+00:00"
+  },
+  "abc469_b": {
+    "problem_id": "abc469_b",
+    "title": "D. Isolated Seats",
+    "contest_id": "adt_easy_20261111_1",
+    "difficulty": 35,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:12.550993+00:00"
+  },
+  "abc470_b": {
+    "problem_id": "abc470_b",
+    "title": "C. Monocolor",
+    "contest_id": "adt_easy_20261102_1",
+    "difficulty": 29,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:12.551018+00:00"
+  },
+  "abc389_a": {
+    "problem_id": "abc389_a",
+    "title": "B. 9x9",
+    "contest_id": "adt_easy_20261022_2",
+    "difficulty": 8,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:12.551036+00:00"
+  },
+  "abc445_a": {
+    "problem_id": "abc445_a",
+    "title": "B. Strong Word",
+    "contest_id": "adt_easy_20260812_2",
+    "difficulty": 8,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:12.551070+00:00"
+  },
+  "abc459_a": {
+    "problem_id": "abc459_a",
+    "title": "B. Hell, World!",
+    "contest_id": "adt_easy_20261029_1",
+    "difficulty": 15,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:16.712422+00:00"
+  },
+  "abc464_a": {
+    "problem_id": "abc464_a",
+    "title": "A. Decisive Battle",
+    "contest_id": "adt_all_20261012_2",
+    "difficulty": 13,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:16.712469+00:00"
+  },
+  "abc466_a": {
+    "problem_id": "abc466_a",
+    "title": "B. Compromise ",
+    "contest_id": "adt_easy_20261002_1",
+    "difficulty": 16,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:16.712492+00:00"
+  },
+  "abc468_a": {
+    "problem_id": "abc468_a",
+    "title": "B. Maximal Value",
+    "contest_id": "adt_easy_20261013_2",
+    "difficulty": 17,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:16.712508+00:00"
+  },
+  "abc469_a": {
+    "problem_id": "abc469_a",
+    "title": "B. Train Car",
+    "contest_id": "adt_easy_20261020_1",
+    "difficulty": 11,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:16.712538+00:00"
+  },
+  "abc016_3": {
+    "problem_id": "abc016_3",
+    "title": "C. 友達の友達",
+    "contest_id": "abc016",
+    "difficulty": 830,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-22T15:07:20.786135+00:00"
   }
 }
