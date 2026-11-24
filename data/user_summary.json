@@ -2,10 +2,10 @@
   "user_id": "Pikapurin",
   "user_rating": 793,
   "profile_url": "https://atcoder.jp/users/Pikapurin",
-  "updated_at": "2026-11-23T19:02:36.027489+00:00",
-  "total_ac_count": 351,
-  "analyzed_ac_count": 263,
-  "latest_submission_epoch": 1795335164,
+  "updated_at": "2026-11-24T06:49:41.057550+00:00",
+  "total_ac_count": 352,
+  "analyzed_ac_count": 273,
+  "latest_submission_epoch": 1795489946,
   "all_ac_ids": [
     "APG4bPython_a",
     "APG4bPython_cu",
@@ -259,6 +259,7 @@
     "abc458_b",
     "abc458_c",
     "abc459_a",
+    "abc459_b",
     "abc460_a",
     "abc460_b",
     "abc460_c",
@@ -365,11 +366,11 @@
     "IMP"
   ],
   "weekly_stats": {
-    "this_week_ac": 0,
-    "this_week_points": 0,
+    "this_week_ac": 1,
+    "this_week_points": 32,
     "last_week_points": 2961,
-    "points_diff_vs_last_week": -2961,
-    "streak_days": 0,
+    "points_diff_vs_last_week": -2929,
+    "streak_days": 1,
     "weekly_history": [
       {
         "week_label": "9/21〜",
@@ -428,8 +429,8 @@
       {
         "week_label": "11/23〜",
         "start_date": "2026-11-23",
-        "ac_count": 0,
-        "points": 0
+        "ac_count": 1,
+        "points": 32
       }
     ]
   },
@@ -8537,6 +8538,33 @@
   ],
   "ac_problems": [
     {
+      "problem_id": "abc459_b",
+      "contest_id": "adt_easy_20261014_2",
+      "title": "C. 459",
+      "difficulty": 32,
+      "epoch_second": 1795489946,
+      "analyzed": true,
+      "weights": {
+        "IMP": 25,
+        "DS": 9,
+        "GRP": 30,
+        "DP": 6,
+        "MTH": 6,
+        "INS": 12,
+        "OPT": 12
+      },
+      "tags": [
+        {
+          "param": "GRP",
+          "arrows": "↑↑"
+        },
+        {
+          "param": "IMP",
+          "arrows": "↑"
+        }
+      ]
+    },
+    {
       "problem_id": "abc468_b",
       "contest_id": "abc468",
       "title": "B. Corridor Watch",
@@ -13877,33 +13905,6 @@
       "tags": [
         {
           "param": "DS",
-          "arrows": "↑↑"
-        },
-        {
-          "param": "INS",
-          "arrows": "↑"
-        }
-      ]
-    },
-    {
-      "problem_id": "abc422_b",
-      "contest_id": "adt_easy_20260918_1",
-      "title": "D. Looped Rope",
-      "difficulty": 400,
-      "epoch_second": 1761954948,
-      "analyzed": true,
-      "weights": {
-        "IMP": 32,
-        "DS": 12,
-        "GRP": 8,
-        "DP": 8,
-        "MTH": 8,
-        "INS": 16,
-        "OPT": 16
-      },
-      "tags": [
-        {
-          "param": "IMP",
           "arrows": "↑↑"
         },
         {

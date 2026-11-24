@@ -8937,5 +8937,275 @@
     ],
     "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-23T19:02:35.812814+00:00"
+  },
+  "abc459_b": {
+    "problem_id": "abc459_b",
+    "title": "C. 459",
+    "contest_id": "adt_easy_20261014_2",
+    "difficulty": 32,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:36.729029+00:00"
+  },
+  "abc423_c": {
+    "problem_id": "abc423_c",
+    "title": "F. Lock All Doors ",
+    "contest_id": "adt_all_20261028_2",
+    "difficulty": 377,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:36.729083+00:00"
+  },
+  "abc423_b": {
+    "problem_id": "abc423_b",
+    "title": "D. Locked Rooms",
+    "contest_id": "adt_easy_20260928_2",
+    "difficulty": 41,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:36.729108+00:00"
+  },
+  "abc423_a": {
+    "problem_id": "abc423_a",
+    "title": "B. Scary Fee",
+    "contest_id": "adt_easy_20261116_1",
+    "difficulty": 22,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:36.729133+00:00"
+  },
+  "abc400_b": {
+    "problem_id": "abc400_b",
+    "title": "C. Sum of Geometric Series",
+    "contest_id": "adt_easy_20260929_2",
+    "difficulty": 33,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 6,
+      "DP": 6,
+      "MTH": 30,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "MTH",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "数学・数え上げと実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:36.729152+00:00"
+  },
+  "abc401_b": {
+    "problem_id": "abc401_b",
+    "title": "D. Unauthorized",
+    "contest_id": "adt_easy_20261016_1",
+    "difficulty": 20,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:40.824827+00:00"
+  },
+  "abc402_b": {
+    "problem_id": "abc402_b",
+    "title": "C. Restaurant Queue",
+    "contest_id": "adt_easy_20261005_1",
+    "difficulty": 27,
+    "weights": {
+      "IMP": 12,
+      "DS": 34,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:40.824877+00:00"
+  },
+  "abc403_b": {
+    "problem_id": "abc403_b",
+    "title": "C. Four Hidden",
+    "contest_id": "adt_easy_20261104_1",
+    "difficulty": 74,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:40.824903+00:00"
+  },
+  "abc393_a": {
+    "problem_id": "abc393_a",
+    "title": "A. Poisonous Oyster ",
+    "contest_id": "adt_easy_20260901_1",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:40.824922+00:00"
+  },
+  "abc419_d": {
+    "problem_id": "abc419_d",
+    "title": "G. Substr Swap",
+    "contest_id": "adt_all_20261109_2",
+    "difficulty": 251,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T06:49:40.824944+00:00"
   }
 }
