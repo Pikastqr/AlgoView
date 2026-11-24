@@ -9207,5 +9207,275 @@
     ],
     "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-24T06:49:40.824944+00:00"
+  },
+  "abc419_a": {
+    "problem_id": "abc419_a",
+    "title": "A. AtCoder Language",
+    "contest_id": "adt_easy_20261109_1",
+    "difficulty": 16,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:04.670016+00:00"
+  },
+  "abc419_b": {
+    "problem_id": "abc419_b",
+    "title": "C. Get Min",
+    "contest_id": "adt_easy_20260831_1",
+    "difficulty": 31,
+    "weights": {
+      "IMP": 10,
+      "DS": 29,
+      "GRP": 6,
+      "DP": 23,
+      "MTH": 6,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:04.670078+00:00"
+  },
+  "abc418_a": {
+    "problem_id": "abc418_a",
+    "title": "B. I'm a teapot",
+    "contest_id": "adt_easy_20260828_1",
+    "difficulty": 12,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:04.670118+00:00"
+  },
+  "abc404_b": {
+    "problem_id": "abc404_b",
+    "title": "D. Grid Rotation",
+    "contest_id": "adt_easy_20261030_1",
+    "difficulty": 181,
+    "weights": {
+      "IMP": 22,
+      "DS": 25,
+      "GRP": 6,
+      "DP": 19,
+      "MTH": 6,
+      "INS": 11,
+      "OPT": 11
+    },
+    "tags": [
+      {
+        "param": "DS",
+        "arrows": "↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:04.670158+00:00"
+  },
+  "abc405_b": {
+    "problem_id": "abc405_b",
+    "title": "D. Not All",
+    "contest_id": "adt_easy_20261106_1",
+    "difficulty": 50,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:04.670196+00:00"
+  },
+  "abc079_b": {
+    "problem_id": "abc079_b",
+    "title": "B. Lucas Number",
+    "contest_id": "abc079",
+    "difficulty": 167,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:08.775403+00:00"
+  },
+  "APG4b_cb": {
+    "problem_id": "APG4b_cb",
+    "title": "EX21. 2.06",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:08.775493+00:00"
+  },
+  "abc417_b": {
+    "problem_id": "abc417_b",
+    "title": "D. Search and Delete",
+    "contest_id": "adt_easy_20261102_2",
+    "difficulty": 41,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:08.775559+00:00"
+  },
+  "abc417_a": {
+    "problem_id": "abc417_a",
+    "title": "B. A Substring",
+    "contest_id": "adt_easy_20261027_1",
+    "difficulty": 15,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:08.775593+00:00"
+  },
+  "abc416_b": {
+    "problem_id": "abc416_b",
+    "title": "C. 1D Akari",
+    "contest_id": "adt_easy_20261116_2",
+    "difficulty": 56,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-24T18:42:08.775653+00:00"
   }
 }
