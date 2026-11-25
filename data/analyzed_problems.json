@@ -9747,5 +9747,275 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-25T05:17:10.521692+00:00"
+  },
+  "abc409_b": {
+    "problem_id": "abc409_b",
+    "title": "C. Citation",
+    "contest_id": "adt_easy_20261030_1",
+    "difficulty": 126,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:25.730266+00:00"
+  },
+  "abc398_a": {
+    "problem_id": "abc398_a",
+    "title": "A. Doors in the Center",
+    "contest_id": "adt_easy_20261112_1",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:25.730308+00:00"
+  },
+  "abc399_a": {
+    "problem_id": "abc399_a",
+    "title": "A. Hamming Distance",
+    "contest_id": "adt_easy_20261005_2",
+    "difficulty": 9,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:25.730330+00:00"
+  },
+  "abc400_a": {
+    "problem_id": "abc400_a",
+    "title": "A. ABC400 Party",
+    "contest_id": "adt_easy_20260918_1",
+    "difficulty": 7,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:25.730345+00:00"
+  },
+  "abc401_a": {
+    "problem_id": "abc401_a",
+    "title": "A. Status Code",
+    "contest_id": "adt_easy_20260924_2",
+    "difficulty": 8,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:25.730359+00:00"
+  },
+  "abc402_a": {
+    "problem_id": "abc402_a",
+    "title": "B. CBC",
+    "contest_id": "adt_easy_20260929_1",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 21,
+      "DS": 23,
+      "GRP": 24,
+      "DP": 5,
+      "MTH": 5,
+      "INS": 11,
+      "OPT": 11
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "データ構造とグラフ・木の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:29.826274+00:00"
+  },
+  "abc414_b": {
+    "problem_id": "abc414_b",
+    "title": "C. String Too Long ",
+    "contest_id": "adt_easy_20261125_2",
+    "difficulty": 37,
+    "weights": {
+      "IMP": 25,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 6,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:29.826322+00:00"
+  },
+  "abc414_a": {
+    "problem_id": "abc414_a",
+    "title": "A. Streamer Takahashi",
+    "contest_id": "adt_easy_20260717_2",
+    "difficulty": 11,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:29.826348+00:00"
+  },
+  "abc403_a": {
+    "problem_id": "abc403_a",
+    "title": "B. Odd Position Sum",
+    "contest_id": "adt_easy_20260722_2",
+    "difficulty": 9,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:29.826366+00:00"
+  },
+  "abc404_a": {
+    "problem_id": "abc404_a",
+    "title": "B. Not Found",
+    "contest_id": "adt_easy_20260903_1",
+    "difficulty": 24,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-25T17:51:29.826383+00:00"
   }
 }
