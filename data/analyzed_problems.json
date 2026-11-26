@@ -10017,5 +10017,275 @@
     ],
     "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-25T17:51:29.826383+00:00"
+  },
+  "abc411_b": {
+    "problem_id": "abc411_b",
+    "title": "C. Distance Table",
+    "contest_id": "adt_easy_20261021_2",
+    "difficulty": 32,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:37.951826+00:00"
+  },
+  "abc406_a": {
+    "problem_id": "abc406_a",
+    "title": "B. Not Acceptable",
+    "contest_id": "adt_easy_20260907_2",
+    "difficulty": 11,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:37.951876+00:00"
+  },
+  "abc407_a": {
+    "problem_id": "abc407_a",
+    "title": "A. Approximation",
+    "contest_id": "adt_all_20261026_1",
+    "difficulty": 26,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:37.951925+00:00"
+  },
+  "APG4b_cd": {
+    "problem_id": "APG4b_cd",
+    "title": "EX19. 2.04",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:37.951982+00:00"
+  },
+  "abc107_b": {
+    "problem_id": "abc107_b",
+    "title": "B. Grid Compression",
+    "contest_id": "abc107",
+    "difficulty": 448,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:37.952062+00:00"
+  },
+  "abc413_b": {
+    "problem_id": "abc413_b",
+    "title": "D. cat 2",
+    "contest_id": "adt_medium_20250909_3",
+    "difficulty": 51,
+    "weights": {
+      "IMP": 22,
+      "DS": 8,
+      "GRP": 24,
+      "DP": 19,
+      "MTH": 5,
+      "INS": 11,
+      "OPT": 11
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑"
+      },
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と実装・構築の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:42.032630+00:00"
+  },
+  "abc413_a": {
+    "problem_id": "abc413_a",
+    "title": "B. Content Too Large",
+    "contest_id": "adt_easy_20260804_2",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:42.032675+00:00"
+  },
+  "APG4b_ce": {
+    "problem_id": "APG4b_ce",
+    "title": "EX18. 2.03",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:42.032740+00:00"
+  },
+  "APG4b_cf": {
+    "problem_id": "APG4b_cf",
+    "title": "EX17. 2.02",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:42.032796+00:00"
+  },
+  "APG4b_cg": {
+    "problem_id": "APG4b_cg",
+    "title": "EX16. 2.01",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-26T04:44:42.032849+00:00"
   }
 }
