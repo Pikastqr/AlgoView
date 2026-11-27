@@ -10827,5 +10827,275 @@
     ],
     "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-27T04:51:22.737893+00:00"
+  },
+  "APG4b_cm": {
+    "problem_id": "APG4b_cm",
+    "title": "EX10. 1.10",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 11,
+      "DS": 11,
+      "GRP": 34,
+      "DP": 7,
+      "MTH": 7,
+      "INS": 15,
+      "OPT": 15
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:19.081463+00:00"
+  },
+  "APG4b_cn": {
+    "problem_id": "APG4b_cn",
+    "title": "EX9. 1.09",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:19.081515+00:00"
+  },
+  "APG4b_co": {
+    "problem_id": "APG4b_co",
+    "title": "EX8. 1.08",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 9,
+      "DS": 9,
+      "GRP": 30,
+      "DP": 22,
+      "MTH": 6,
+      "INS": 12,
+      "OPT": 12
+    },
+    "tags": [
+      {
+        "param": "GRP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "グラフ・木と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:19.081557+00:00"
+  },
+  "APG4b_cp": {
+    "problem_id": "APG4b_cp",
+    "title": "EX7. 1.07",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:19.081597+00:00"
+  },
+  "abc086_a": {
+    "problem_id": "abc086_a",
+    "title": "A. Product",
+    "contest_id": "abc086",
+    "difficulty": 17,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:19.081614+00:00"
+  },
+  "abc088_a": {
+    "problem_id": "abc088_a",
+    "title": "A. Infinite Coins",
+    "contest_id": "abc088",
+    "difficulty": 39,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:23.145713+00:00"
+  },
+  "APG4b_cq": {
+    "problem_id": "APG4b_cq",
+    "title": "EX6. 1.06",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 12,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 28,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "DP",
+        "arrows": "↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "動的計画法とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:23.145786+00:00"
+  },
+  "abc405_a": {
+    "problem_id": "abc405_a",
+    "title": "B. Is it rated?",
+    "contest_id": "adt_easy_20261111_1",
+    "difficulty": 10,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:23.145817+00:00"
+  },
+  "abc081_a": {
+    "problem_id": "abc081_a",
+    "title": "A. Placing Marbles",
+    "contest_id": "abc081",
+    "difficulty": 52,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:23.145839+00:00"
+  },
+  "abc082_a": {
+    "problem_id": "abc082_a",
+    "title": "A. Round Up the Mean",
+    "contest_id": "abc082",
+    "difficulty": 52,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-27T17:17:23.145856+00:00"
   }
 }
