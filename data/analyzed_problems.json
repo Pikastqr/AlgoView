@@ -11097,5 +11097,248 @@
     ],
     "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-27T17:17:23.145856+00:00"
+  },
+  "abc074_a": {
+    "problem_id": "abc074_a",
+    "title": "A. Bichrome Cells",
+    "contest_id": "abc074",
+    "difficulty": 11,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:51.966879+00:00"
+  },
+  "abc076_a": {
+    "problem_id": "abc076_a",
+    "title": "A. Rating Goal",
+    "contest_id": "abc076",
+    "difficulty": 48,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:51.966935+00:00"
+  },
+  "abc084_a": {
+    "problem_id": "abc084_a",
+    "title": "A. New Year",
+    "contest_id": "abc084",
+    "difficulty": 13,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:51.966955+00:00"
+  },
+  "APG4b_cr": {
+    "problem_id": "APG4b_cr",
+    "title": "EX5. 1.05",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:51.966971+00:00"
+  },
+  "APG4b_cs": {
+    "problem_id": "APG4b_cs",
+    "title": "EX4. 1.04",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:51.966990+00:00"
+  },
+  "APG4b_ct": {
+    "problem_id": "APG4b_ct",
+    "title": "EX3. 1.03",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:56.072125+00:00"
+  },
+  "APG4b_cu": {
+    "problem_id": "APG4b_cu",
+    "title": "EX2. 1.02",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:56.072175+00:00"
+  },
+  "APG4b_cv": {
+    "problem_id": "APG4b_cv",
+    "title": "EX1. 1.01",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:56.072200+00:00"
+  },
+  "APG4b_a": {
+    "problem_id": "APG4b_a",
+    "title": "A. 1.00.はじめに",
+    "contest_id": "APG4b",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T04:35:56.072243+00:00"
   }
 }
