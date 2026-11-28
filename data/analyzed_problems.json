@@ -11340,5 +11340,140 @@
     ],
     "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
     "analyzed_at": "2026-11-28T04:35:56.072243+00:00"
+  },
+  "abc386_a": {
+    "problem_id": "abc386_a",
+    "title": "A. Full House 2",
+    "contest_id": "adt_easy_20261118_2",
+    "difficulty": 25,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T15:59:38.761153+00:00"
+  },
+  "abc387_a": {
+    "problem_id": "abc387_a",
+    "title": "A. Happy New Year 2025",
+    "contest_id": "adt_easy_20261002_2",
+    "difficulty": 6,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T15:59:38.761205+00:00"
+  },
+  "abc486_c": {
+    "problem_id": "abc486_c",
+    "title": "C. Skip Lighting",
+    "contest_id": "abc486",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 27,
+      "DS": 10,
+      "GRP": 7,
+      "DP": 23,
+      "MTH": 7,
+      "INS": 13,
+      "OPT": 13
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑"
+      },
+      {
+        "param": "DP",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築と動的計画法の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T15:59:38.761274+00:00"
+  },
+  "abc486_b": {
+    "problem_id": "abc486_b",
+    "title": "B. Player Substitution",
+    "contest_id": "abc486",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 15,
+      "DS": 15,
+      "GRP": 10,
+      "DP": 10,
+      "MTH": 10,
+      "INS": 20,
+      "OPT": 20
+    },
+    "tags": [
+      {
+        "param": "INS",
+        "arrows": "↑"
+      },
+      {
+        "param": "OPT",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "ひらめき・考察と探索・高速化の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T15:59:38.761317+00:00"
+  },
+  "abc486_a": {
+    "problem_id": "abc486_a",
+    "title": "A. Phonetic Alphabet ",
+    "contest_id": "abc486",
+    "difficulty": 400,
+    "weights": {
+      "IMP": 32,
+      "DS": 12,
+      "GRP": 8,
+      "DP": 8,
+      "MTH": 8,
+      "INS": 16,
+      "OPT": 16
+    },
+    "tags": [
+      {
+        "param": "IMP",
+        "arrows": "↑↑"
+      },
+      {
+        "param": "INS",
+        "arrows": "↑"
+      }
+    ],
+    "one_line_summary": "実装・構築とひらめき・考察の総合力が試されるステップアップ良問！",
+    "analyzed_at": "2026-11-28T15:59:38.761360+00:00"
   }
 }
